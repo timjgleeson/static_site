@@ -1,0 +1,97 @@
+.card {
+  margin-top: $gutter / 2;
+  padding: $gutter / 2;
+  border: 1px solid lighten(black, 20%);
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    @include clearfix();
+  }
+}
+
+.card--wide {
+  @include clearfix();
+}
+
+.card__header {
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+  .card--wide & {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+}
+
+.card__title {
+
+}
+
+.card__content {
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+  .card--wide & {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+}
+
+.card__meta {
+  font-size: #{(12/16)}em;
+  color: lighten(#000, 20%);
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+  .card--wide & {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+}
+
+.card__media {
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    width: 35%;
+    float: left;
+  }
+  .card--wide & {
+    width: 35%;
+    float: left;
+  }
+}
+
+.card__footer {
+  font-size: 0;
+
+  > .button,
+  > .link {
+    margin-left: $gutter / 2;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  @media #{$palmTopEndMq}, #{$lapTopEndMq} {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+  .card--wide & {
+    padding-left: $gutter / 2;
+    width: 65%;
+    float: right;
+  }
+}

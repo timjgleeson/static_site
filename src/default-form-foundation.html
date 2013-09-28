@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+    <!--[if IE 7]>
+      <link href="/css/application-ie7.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if IE 8]>
+      <link href="/css/application-ie8.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if IE 9]>
+      <link href="/css/application-ie9.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if !IE]> -->
+      <link href="/css/application.css" rel="stylesheet" />
+    <!-- <![endif]-->
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" />
+  </head>
+  <body>
+    <div class="form-system">
+      <div class="grid">
+        <div class="grid__item">
+          <form action="#" method="GET">
+            <div class="form-row">
+              <label for="input-1" class="form-row__text">
+                Form label
+              </label>
+              <div class="form-row__value">
+                <input class="form-row__input" type="text" name="input-1" index="index-1" value="Input" />
+              </div>
+              <div class="form-row__description">
+                Description of form row
+              </div>
+            </div>
+            <div class="form-row">
+              <label class="form-row__text">
+                Form label
+              </label>
+              <div class="form-row__value">
+                <p class="form-row__output">Output</p>
+              </div>
+              <div class="form-row__description">
+                Description of form row
+              </div>
+            </div>
+
+            <div class="form-row form-row--full">
+              <label for="input-1" class="form-row__text">
+                Form label
+              </label>
+              <div class="form-row__value">
+                <input class="form-row__input" type="text" name="input-1" index="index-1" value="Input" />
+              </div>
+              <div class="form-row__description">
+                Description of form row
+              </div>
+            </div>
+            <div class="form-row form-row--full">
+              <label class="form-row__text">
+                Form label
+              </label>
+              <div class="form-row__value">
+                <p class="form-row__output">Output</p>
+              </div>
+              <div class="form-row__description">
+                Description of form row
+              </div>
+            </div>
+
+            <div class="form-row form-row--error">
+              <label for="input-1" class="form-row__text">
+                Form label
+              </label>
+              <div class="form-row__value">
+                <input class="form-row__input" type="text" name="input-1" index="index-1" value="Input" />
+              </div>
+              <div class="form-row__description">
+                Description of form row
+              </div>
+              <div class="form-row__description--error">
+                Error message of form row
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button>Button</button>
+              <a href="#" class="button">Link as button</a>
+              <input type="reset" value="Clear" />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

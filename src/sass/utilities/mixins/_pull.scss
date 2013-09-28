@@ -1,0 +1,29 @@
+@mixin pull-right($margin-left: $gutter / 2) {
+  float: right;
+  @if $margin-left != 0 {
+    margin-right: $margin-left;
+  }
+}
+
+@mixin pull-left($margin-right: $gutter / 2) {
+  float: left;
+  @if $margin-right != 0 {
+    margin-right: $margin-right;
+  }
+}
+
+@mixin clearfix() {
+  @if $ie_version == 7 {
+    zoom: 1;
+  } @else {
+    &:before,
+    &:after {
+      content: "";
+      @include display(table);
+    }
+
+    &:after {
+      clear: both;
+    }
+  }
+}

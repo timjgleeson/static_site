@@ -1,0 +1,20 @@
+.link {
+  @include display(inline-block);
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-family: $baseFontFamily;
+  font-size: $baseFontSize;
+  font-weight: normal;
+  line-height: 1;
+  color: blue;
+  text-decoration: underline;
+  text-align: left;
+}
+
+a {
+  @extend .link;
+}

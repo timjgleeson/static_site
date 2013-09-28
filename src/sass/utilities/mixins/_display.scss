@@ -1,0 +1,20 @@
+@mixin display($type) {
+  @if $type == 'inline-block' {
+    @if $ie_version == 7 {
+      display: inline;
+      zoom: 1;
+    } @else {
+      display: inline-block;
+    }
+  } @else {
+    display: $type;
+  }
+}
+
+@mixin percentage_width($factor) {
+  @if $ie_version == 7 {
+    @include ie_width($factor);
+  } @else {
+    width: percentage( ($factor) / 100 );
+  }
+}

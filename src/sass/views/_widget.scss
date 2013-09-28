@@ -1,0 +1,14 @@
+.widget {
+  @extend .padded--narrow;
+  padding-top: $gutter / 2;
+  padding-bottom: $gutter / 2;
+  margin-top: $baseMargin;
+  background-color: #222;
+  color: white;
+
+  .widget {
+    padding: 0 $baseMargin / 2;
+    background-color: white;
+    color: #222;
+  }
+}

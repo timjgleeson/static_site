@@ -1,0 +1,66 @@
+@mixin padded($namespace:""){
+  .#{$namespace}padded {
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
+@mixin padded_narrow($namespace:""){
+  .#{$namespace}padded--narrow {
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
+  }
+}
+
+@mixin padded_wide($namespace:""){
+  .#{$namespace}padded--wide {
+    padding-left: $gutter * 2;
+    padding-right: $gutter * 2;
+  }
+}
+
+@include padded();
+@include padded_narrow();
+@include padded_wide();
+
+@include is_not_ie() {
+  @media #{$palmMq} {
+    @include padded('palm-');
+    @include padded_narrow('palm-');
+    @include padded_wide('palm-');
+  }
+
+  @media #{$portableMq} {
+    @include padded('portable-');
+    @include padded_narrow('portable-');
+    @include padded_wide('portable-');
+  }
+
+  @media #{$lapMq} {
+    @include padded('lap-');
+    @include padded_narrow('lap-');
+    @include padded_wide('lap-');
+  }
+
+  @media #{$lapdeskMq} {
+    @include padded('lapdesk-');
+    @include padded_narrow('lapdesk-');
+    @include padded_wide('lapdesk-');
+  }
+
+  @media #{$deskMq} {
+    @include padded('desk-');
+    @include padded_narrow('desk-');
+    @include padded_wide('desk-');
+  }
+}
+
+@include is_ie() {
+  @include padded('lapdesk-');
+  @include padded_narrow('lapdesk-');
+  @include padded_wide('lapdesk-');
+
+  @include padded('desk-');
+  @include padded_narrow('desk-');
+  @include padded_wide('desk-');
+}

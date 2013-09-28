@@ -1,0 +1,768 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.form-row {
+  zoom: 1;
+  margin-top: 16px;
+}
+.form-row:first-child {
+  margin-top: 0;
+}
+
+.form-row__text {
+  float: left;
+  width: 100%;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 32px;
+  font-weight: bold;
+  width: 30%;
+  margin-bottom: 0;
+}
+.form-row--full .form-row__text {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.form-row__value {
+  width: 100%;
+  float: left;
+  width: 70%;
+}
+.form-row--full .form-row__value {
+  float: none;
+  width: 100%;
+}
+
+.form-row__input {
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #333333;
+}
+.form-row--error .form-row__input {
+  border: 1px solid red;
+}
+
+.form-row__output {
+  padding: 8px 0;
+}
+
+.form-row__description {
+  float: left;
+  width: 100%;
+  padding-bottom: 8px;
+  font-size: 0.75em;
+  color: #333333;
+  width: 70%;
+  margin-left: 30%;
+}
+.form-row--full .form-row__description, .form-row__description.form-row__description--error {
+  width: 100%;
+  margin-left: 0;
+}
+
+.form-row__description--error {
+  float: left;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: red;
+}
+
+.form-actions {
+  font-size: 0;
+}
+.form-actions > .button, .form-actions > input[type="submit"],
+.form-actions > input[type="reset"],
+.form-actions > button,
+.form-actions > .link,
+.form-actions > a {
+  margin-left: 16px;
+}
+.form-actions > .button:first-child, .form-actions > input[type="submit"]:first-child,
+.form-actions > input[type="reset"]:first-child,
+.form-actions > button:first-child,
+.form-actions > .link:first-child,
+.form-actions > a:first-child {
+  margin-left: 0;
+}
+
+.card {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #333333;
+}
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card {
+    zoom: 1;
+  }
+}
+
+.card--wide {
+  zoom: 1;
+}
+
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card__header {
+    padding-left: 16px;
+    width: 65%;
+    float: right;
+  }
+}
+.card--wide .card__header {
+  padding-left: 16px;
+  width: 65%;
+  float: right;
+}
+
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card__content {
+    padding-left: 16px;
+    width: 65%;
+    float: right;
+  }
+}
+.card--wide .card__content {
+  padding-left: 16px;
+  width: 65%;
+  float: right;
+}
+
+.card__meta {
+  font-size: 0.75em;
+  color: #333333;
+}
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card__meta {
+    padding-left: 16px;
+    width: 65%;
+    float: right;
+  }
+}
+.card--wide .card__meta {
+  padding-left: 16px;
+  width: 65%;
+  float: right;
+}
+
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card__media {
+    width: 35%;
+    float: left;
+  }
+}
+.card--wide .card__media {
+  width: 35%;
+  float: left;
+}
+
+.card__footer {
+  font-size: 0;
+}
+.card__footer > .button, .card__footer > input[type="submit"],
+.card__footer > input[type="reset"],
+.card__footer > button,
+.card__footer > .link,
+.card__footer > a {
+  margin-left: 16px;
+}
+.card__footer > .button:first-child, .card__footer > input[type="submit"]:first-child,
+.card__footer > input[type="reset"]:first-child,
+.card__footer > button:first-child,
+.card__footer > .link:first-child,
+.card__footer > a:first-child {
+  margin-left: 0;
+}
+@media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
+  .card__footer {
+    padding-left: 16px;
+    width: 65%;
+    float: right;
+  }
+}
+.card--wide .card__footer {
+  padding-left: 16px;
+  width: 65%;
+  float: right;
+}
+
+.widget {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  background-color: #222;
+  color: white;
+}
+.widget .widget {
+  padding: 0 8px;
+  background-color: white;
+  color: #222;
+}
+
+.grid-system {
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 960px;
+}
+.grid-system .grid:first-child .widget {
+  margin-top: 0;
+}
+
+.display-system {
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 960px;
+}
+.display-system .grid:first-child .widget {
+  margin-top: 0;
+}
+
+.form-system {
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 960px;
+}
+.form-system .grid:first-child .widget {
+  margin-top: 0;
+}
+
+.card-system {
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 960px;
+}
+.card-system .grid:first-child .widget {
+  margin-top: 0;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+  margin-left: -32px;
+  font-size: 0;
+}
+
+.grid__item {
+  display: inline;
+  zoom: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  padding-left: 32px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.grid--full {
+  margin-left: 0;
+}
+.grid--full > .grid__item {
+  padding-left: 0;
+}
+
+.grid--narrow {
+  margin-left: -16px;
+}
+.grid--narrow > .grid__item {
+  padding-left: 16px;
+}
+
+.grid--wide {
+  margin-left: -64px;
+}
+.grid--wide > .grid__item {
+  padding-left: 64px;
+}
+
+.grid--rev {
+  direction: rtl;
+  text-align: left;
+}
+.grid--rev > .grid__item {
+  direction: ltr;
+  text-align: left;
+  float: right;
+}
+
+.one-whole {
+  width: expression((this.parentNode.clientWidth * 1 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-half, .two-quarters, .four-eighths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-third, .two-sixths {
+  width: expression((this.parentNode.clientWidth * 0.33333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.two-thirds, .four-sixths {
+  width: expression((this.parentNode.clientWidth * 0.66667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-quarter, .two-eighths {
+  width: expression((this.parentNode.clientWidth * 0.25 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.three-quarters, .six-eighths {
+  width: expression((this.parentNode.clientWidth * 0.75 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-fifth {
+  width: expression((this.parentNode.clientWidth * 0.2 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.two-fifths {
+  width: expression((this.parentNode.clientWidth * 0.4 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.three-fifths {
+  width: expression((this.parentNode.clientWidth * 0.6 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.four-fifths {
+  width: expression((this.parentNode.clientWidth * 0.8 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-sixth {
+  width: expression((this.parentNode.clientWidth * 0.16667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.three-sixths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.five-sixths {
+  width: expression((this.parentNode.clientWidth * 0.83333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.one-eighth {
+  width: expression((this.parentNode.clientWidth * 0.125 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.three-eighths {
+  width: expression((this.parentNode.clientWidth * 0.375 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.five-eighths {
+  width: expression((this.parentNode.clientWidth * 0.625 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.seven-eighths {
+  width: expression((this.parentNode.clientWidth * 0.875 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-grid--full {
+  margin-left: 0;
+}
+.lapdesk-grid--full > .grid__item {
+  padding-left: 0;
+}
+
+.lapdesk-grid--narrow {
+  margin-left: -16px;
+}
+.lapdesk-grid--narrow > .grid__item {
+  padding-left: 16px;
+}
+
+.lapdesk-grid--wide {
+  margin-left: -64px;
+}
+.lapdesk-grid--wide > .grid__item {
+  padding-left: 64px;
+}
+
+.grid--rev {
+  direction: rtl;
+  text-align: left;
+}
+.grid--rev > .grid__item {
+  direction: ltr;
+  text-align: left;
+  float: right;
+}
+
+.lapdesk-one-whole {
+  width: expression((this.parentNode.clientWidth * 1 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-half, .lapdesk-two-quarters, .lapdesk-four-eighths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-third, .lapdesk-two-sixths {
+  width: expression((this.parentNode.clientWidth * 0.33333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-two-thirds, .lapdesk-four-sixths {
+  width: expression((this.parentNode.clientWidth * 0.66667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-quarter, .lapdesk-two-eighths {
+  width: expression((this.parentNode.clientWidth * 0.25 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-three-quarters, .lapdesk-six-eighths {
+  width: expression((this.parentNode.clientWidth * 0.75 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-fifth {
+  width: expression((this.parentNode.clientWidth * 0.2 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-two-fifths {
+  width: expression((this.parentNode.clientWidth * 0.4 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-three-fifths {
+  width: expression((this.parentNode.clientWidth * 0.6 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-four-fifths {
+  width: expression((this.parentNode.clientWidth * 0.8 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-sixth {
+  width: expression((this.parentNode.clientWidth * 0.16667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-three-sixths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-five-sixths {
+  width: expression((this.parentNode.clientWidth * 0.83333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-one-eighth {
+  width: expression((this.parentNode.clientWidth * 0.125 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-three-eighths {
+  width: expression((this.parentNode.clientWidth * 0.375 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-five-eighths {
+  width: expression((this.parentNode.clientWidth * 0.625 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.lapdesk-seven-eighths {
+  width: expression((this.parentNode.clientWidth * 0.875 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-grid--full {
+  margin-left: 0;
+}
+.desk-grid--full > .grid__item {
+  padding-left: 0;
+}
+
+.desk-grid--narrow {
+  margin-left: -16px;
+}
+.desk-grid--narrow > .grid__item {
+  padding-left: 16px;
+}
+
+.desk-grid--wide {
+  margin-left: -64px;
+}
+.desk-grid--wide > .grid__item {
+  padding-left: 64px;
+}
+
+.grid--rev {
+  direction: rtl;
+  text-align: left;
+}
+.grid--rev > .grid__item {
+  direction: ltr;
+  text-align: left;
+  float: right;
+}
+
+.desk-one-whole {
+  width: expression((this.parentNode.clientWidth * 1 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-half, .desk-two-quarters, .desk-four-eighths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-third, .desk-two-sixths {
+  width: expression((this.parentNode.clientWidth * 0.33333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-two-thirds, .desk-four-sixths {
+  width: expression((this.parentNode.clientWidth * 0.66667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-quarter, .desk-two-eighths {
+  width: expression((this.parentNode.clientWidth * 0.25 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-three-quarters, .desk-six-eighths {
+  width: expression((this.parentNode.clientWidth * 0.75 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-fifth {
+  width: expression((this.parentNode.clientWidth * 0.2 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-two-fifths {
+  width: expression((this.parentNode.clientWidth * 0.4 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-three-fifths {
+  width: expression((this.parentNode.clientWidth * 0.6 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-four-fifths {
+  width: expression((this.parentNode.clientWidth * 0.8 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-sixth {
+  width: expression((this.parentNode.clientWidth * 0.16667 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-three-sixths {
+  width: expression((this.parentNode.clientWidth * 0.5 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-five-sixths {
+  width: expression((this.parentNode.clientWidth * 0.83333 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-one-eighth {
+  width: expression((this.parentNode.clientWidth * 0.125 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-three-eighths {
+  width: expression((this.parentNode.clientWidth * 0.375 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-five-eighths {
+  width: expression((this.parentNode.clientWidth * 0.625 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.desk-seven-eighths {
+  width: expression((this.parentNode.clientWidth * 0.875 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
+}
+
+.padded {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.padded--narrow, .widget, .grid-system, .display-system, .form-system, .card-system {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padded--wide {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.lapdesk-padded {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.lapdesk-padded--narrow {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.lapdesk-padded--wide {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.desk-padded {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.desk-padded--narrow {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.desk-padded--wide {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.push--up {
+  position: relative;
+  bottom: 32px;
+}
+
+.push--right {
+  position: relative;
+  left: 32px;
+}
+
+.push--down {
+  position: relative;
+  top: 32px;
+}
+
+.push--left {
+  position: relative;
+  right: 32px;
+}
+
+.lapdesk-push--up {
+  position: relative;
+  bottom: 32px;
+}
+
+.lapdesk-push--right {
+  position: relative;
+  left: 32px;
+}
+
+.lapdesk-push--down {
+  position: relative;
+  top: 32px;
+}
+
+.lapdesk-push--left {
+  position: relative;
+  right: 32px;
+}
+
+.desk-push--up {
+  position: relative;
+  bottom: 32px;
+}
+
+.desk-push--right {
+  position: relative;
+  left: 32px;
+}
+
+.desk-push--down {
+  position: relative;
+  top: 32px;
+}
+
+.desk-push--left {
+  position: relative;
+  right: 32px;
+}
+
+.hidden {
+  display: none;
+}
+
+.not-hidden--block {
+  display: block;
+}
+
+.not-hidden--inline-block {
+  display: inline;
+  zoom: 1;
+}
+
+.lapdesk-hidden {
+  display: none;
+}
+
+.lapdesk-not-hidden--block {
+  display: block;
+}
+
+.lapdesk-not-hidden--inline-block {
+  display: inline;
+  zoom: 1;
+}
+
+.desk-hidden {
+  display: none;
+}
+
+.desk-not-hidden--block {
+  display: block;
+}
+
+.desk-not-hidden--inline-block {
+  display: inline;
+  zoom: 1;
+}
+
+.button, input[type="submit"],
+input[type="reset"],
+button {
+  display: inline;
+  zoom: 1;
+  padding: 8px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: #7f7f7f;
+  border: 0;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link, a {
+  display: inline;
+  zoom: 1;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  color: blue;
+  text-decoration: underline;
+  text-align: left;
+}

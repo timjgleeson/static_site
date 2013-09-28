@@ -1,0 +1,22 @@
+.button {
+  @include display(inline-block);
+  padding: $gutter / 4;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: #7f7f7f;
+  border: 0;
+  border-radius: 0;
+  font-family: $baseFontFamily;
+  font-size: $baseFontSize;
+  font-weight: normal;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+  @extend .button;
+}

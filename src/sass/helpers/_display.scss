@@ -1,0 +1,57 @@
+@mixin hidden($namespace:'') {
+  .#{$namespace}hidden {
+    @include display(none);
+  }
+}
+
+@mixin not-hidden($namespace:'', $display: block) {
+  .#{$namespace}not-hidden--#{$display} {
+    @include display($display);
+  }
+}
+
+@include hidden();
+@include not-hidden();
+@include not-hidden('', inline-block);
+
+@include is_not_ie() {
+  @media #{$palmMq} {
+    @include hidden('palm-');
+    @include not-hidden('palm-');
+    @include not-hidden('palm-', inline-block);
+  }
+
+  @media #{$portableMq} {
+    @include hidden('portable-');
+    @include not-hidden('portable-');
+    @include not-hidden('portable-', inline-block);
+  }
+
+  @media #{$lapMq} {
+    @include hidden('lap-');
+    @include not-hidden('lap-');
+    @include not-hidden('lap-', inline-block);
+  }
+
+  @media #{$lapdeskMq} {
+    @include hidden('lapdesk-');
+    @include not-hidden('lapdesk-');
+    @include not-hidden('lapdesk-', inline-block);
+  }
+
+  @media #{$deskMq} {
+    @include hidden('desk-');
+    @include not-hidden('desk-');
+    @include not-hidden('desk-', inline-block);
+  }
+}
+
+@include is_ie() {
+  @include hidden('lapdesk-');
+  @include not-hidden('lapdesk-');
+  @include not-hidden('lapdesk-', inline-block);
+
+  @include hidden('desk-');
+  @include not-hidden('desk-');
+  @include not-hidden('desk-', inline-block);
+}

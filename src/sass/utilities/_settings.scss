@@ -1,0 +1,29 @@
+$is_ie: false!default;
+$ie_version: false!default;
+
+$baseFontSize: 16px;
+$baseFontFamily: sans-serif;
+
+// GRID SETTINGS
+$baseMargin: $baseFontSize;
+$gutter: $baseMargin * 2;
+
+$deskStart: 1224px;
+$lapStart: 768px;
+
+$palmMiddle: $lapStart / 2;
+$palmEnd: $lapStart - 1px;
+$lapMiddle: (($deskStart - $lapStart) / 2 ) + $lapStart;
+$lapEnd: $deskStart - 1px;
+
+$palmMq: "only screen and (max-width: #{$palmEnd})";
+$lapMq: "only screen and (min-width: #{$lapStart}) and (max-width: #{$lapEnd})";
+$deskMq: "only screen and (min-width: #{$deskStart})";
+
+$portableMq: "only screen and (max-width: #{$lapEnd})";
+$lapdeskMq: "only screen and (min-width: #{$lapStart})";
+
+$palmTopEndMq: "only screen and (min-width: #{$palmMiddle}) and (max-width: #{$palmEnd})";
+$lapTopEndMq: "only screen and (min-width: #{$lapMiddle}) and (max-width: #{$lapEnd})";
+
+$highdensityMq: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";

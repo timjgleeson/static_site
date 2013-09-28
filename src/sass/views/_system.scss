@@ -1,0 +1,17 @@
+@mixin system() {
+  @extend .padded--narrow;
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+
+  @include respond_to($deskMq) {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  .grid:first-child {
+    .widget {
+      margin-top: 0;
+    }
+  }
+}

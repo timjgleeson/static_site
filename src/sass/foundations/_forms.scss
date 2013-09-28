@@ -1,0 +1,104 @@
+form {
+
+}
+
+.form-row {
+  @include clearfix();
+  margin-top: $baseMargin;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.form-row__text {
+  float: left;
+  width: 100%;
+  margin-bottom: $gutter / 4;
+  padding-top: $gutter / 4;
+  padding-right: $gutter;
+  font-weight: bold;
+
+  @include respond_to($lapdeskMq) {
+    width: 30%;
+    margin-bottom: 0;
+
+    .form-row--full & {
+      width: 100%;
+      margin-bottom: $gutter / 4;
+    }
+  }
+}
+
+.form-row__value {
+  width: 100%;
+
+  @include respond_to($lapdeskMq) {
+    float: left;
+    width: 70%;
+
+    .form-row--full & {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+.form-row__input {
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: $gutter / 4;
+  margin-bottom: $gutter / 4;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid lighten(#000, 20%);
+
+  .form-row--error & {
+    border: 1px solid red;
+  }
+}
+
+.form-row__output {
+  padding: $gutter / 4 0;
+}
+
+.form-row__description {
+  float: left;
+  width: 100%;
+  padding-bottom: $gutter / 4;
+  font-size: #{(12/16)}em;
+  color: lighten(#000, 20%);
+
+  @include respond_to($lapdeskMq) {
+    width: 70%;
+    margin-left: 30%;
+
+    .form-row--full &,
+    &.form-row__description--error {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+.form-row__description--error {
+  float: left;
+  width: 100%;
+  margin-bottom: $gutter / 4;
+  padding: $gutter / 4;
+  background-color: red;
+}
+
+.form-actions {
+  font-size: 0;
+
+  > .button,
+  > .link {
+    margin-left: $gutter / 2;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
