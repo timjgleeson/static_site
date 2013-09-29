@@ -1,0 +1,106 @@
+::-moz-selection {
+  color: #fff;
+  background: black;
+  text-shadow: none;
+}
+::selection {
+  color: #fff;
+  background: black;
+  text-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $baseFontFamily;
+  line-height: 1;
+  text-decoration: none;
+
+  a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+$palmH1: 2.1875em;
+$palmH2: 2.03125em;
+$palmH3: 1.875em;
+$palmH4: 1.75em;
+$palmH5: 1.625em;
+$palmH6: 1.5em;
+
+$lapAndDeskH1: 2.3125em;
+$lapAndDeskH2: $palmH1;
+$lapAndDeskH3: $palmH2;
+$lapAndDeskH4: $palmH3;
+$lapAndDeskH5: $palmH4;
+$lapAndDeskH6: $palmH5;
+
+h1, .h1 {
+  font-size: $palmH1;
+}
+h2, .h2 {
+  font-size: $palmH2;
+}
+h3, .h3 {
+  font-size: $palmH3;
+}
+h4, .h4 {
+  font-size: $palmH4;
+}
+h5, .h5 {
+  font-size: $palmH5;
+}
+h6, .h6 {
+  font-size: $palmH6;
+}
+
+@include respond-to($lapdeskMq) {
+  h1, .h1 {
+    font-size: $lapAndDeskH1;
+  }
+  h2, .h2 {
+    font-size: $lapAndDeskH2;
+  }
+  h3, .h3 {
+    font-size: $lapAndDeskH3;
+  }
+  h4, .h4 {
+    font-size: $lapAndDeskH4;
+  }
+  h5, .h5 {
+    font-size: $lapAndDeskH5;
+  }
+  h6, .h6 {
+    font-size: $lapAndDeskH6;
+  }
+}
+
+p, pre, ul, ol, dl, hr, legend, address, table, blockquote {
+  margin-top: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  list-style-position: outside;
+
+  ul,
+  ol {
+    margin-top: 0;
+  }
+}

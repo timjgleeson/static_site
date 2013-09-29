@@ -6,7 +6,7 @@
 
   @include respond_to($deskMq) {
     margin: 0 auto;
-    width: 960px;
+    width: $deskStart;
   }
 
   .grid:first-child {

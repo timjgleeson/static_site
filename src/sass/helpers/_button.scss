@@ -14,9 +14,3 @@
   text-decoration: none;
   text-align: center;
 }
-
-input[type="submit"],
-input[type="reset"],
-button {
-  @extend .button;
-}

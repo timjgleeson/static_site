@@ -2,9 +2,18 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
   margin: 0;
   padding: 0;
-  word-wrap: break-word;
+}
+
+html, body, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,6 +28,127 @@ img {
   height: auto;
 }
 
+::-moz-selection {
+  color: #fff;
+  background: black;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: black;
+  text-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: sans-serif;
+  line-height: 1;
+  text-decoration: none;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+  color: black;
+  text-decoration: none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+.h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {
+  color: black;
+}
+
+h1, .h1 {
+  font-size: 2.1875em;
+}
+
+h2, .h2 {
+  font-size: 2.03125em;
+}
+
+h3, .h3 {
+  font-size: 1.875em;
+}
+
+h4, .h4 {
+  font-size: 1.75em;
+}
+
+h5, .h5 {
+  font-size: 1.625em;
+}
+
+h6, .h6 {
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.3125em;
+  }
+
+  h2, .h2 {
+    font-size: 2.1875em;
+  }
+
+  h3, .h3 {
+    font-size: 2.03125em;
+  }
+
+  h4, .h4 {
+    font-size: 1.875em;
+  }
+
+  h5, .h5 {
+    font-size: 1.75em;
+  }
+
+  h6, .h6 {
+    font-size: 1.625em;
+  }
+}
+p, pre, ul, ol, dl, hr, legend, address, table, blockquote {
+  margin-top: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  list-style-position: outside;
+}
+li ul,
+li ol {
+  margin-top: 0;
+}
+
+.page-header {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+}
+
+.page-title,
+.page-subtitle {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.page-subtitle {
+  color: #333333;
+}
+
+input, select, textarea {
+  font-size: 16px;
+}
+
 .form-row {
   margin-top: 16px;
 }
@@ -28,9 +158,6 @@ img {
 }
 .form-row:after {
   clear: both;
-}
-.form-row:first-child {
-  margin-top: 0;
 }
 
 .form-row__text {
@@ -70,7 +197,6 @@ img {
   -webkit-appearance: none;
   border-radius: 0;
   padding: 8px;
-  margin-bottom: 8px;
   width: 100%;
   font-family: inherit;
   font-size: inherit;
@@ -81,13 +207,14 @@ img {
 }
 
 .form-row__output {
-  padding: 8px 0;
+  margin: 0;
+  padding-top: 8px;
 }
 
 .form-row__description {
   float: left;
   width: 100%;
-  padding-bottom: 8px;
+  margin-top: 8px;
   font-size: 0.75em;
   color: #333333;
 }
@@ -105,26 +232,21 @@ img {
 .form-row__description--error {
   float: left;
   width: 100%;
-  margin-bottom: 8px;
+  margin-top: 8px;
   padding: 8px;
   background-color: red;
 }
 
 .form-actions {
+  margin-top: 16px;
   font-size: 0;
 }
-.form-actions > .button, .form-actions > input[type="submit"],
-.form-actions > input[type="reset"],
-.form-actions > button,
-.form-actions > .link,
-.form-actions > a {
+.form-actions > .button,
+.form-actions > .link {
   margin-left: 16px;
 }
-.form-actions > .button:first-child, .form-actions > input[type="submit"]:first-child,
-.form-actions > input[type="reset"]:first-child,
-.form-actions > button:first-child,
-.form-actions > .link:first-child,
-.form-actions > a:first-child {
+.form-actions > .button:first-child,
+.form-actions > .link:first-child {
   margin-left: 0;
 }
 
@@ -152,84 +274,85 @@ img {
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card__header {
+  .card-header {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card__header {
+.card--wide .card-header {
   padding-left: 16px;
   width: 65%;
   float: right;
+}
+
+.card-title {
+  margin: 0;
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card__content {
+  .card-content {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card__content {
+.card--wide .card-content {
   padding-left: 16px;
   width: 65%;
   float: right;
 }
+.card-content :first-child {
+  margin-top: 0;
+}
 
-.card__meta {
+.card-meta {
   font-size: 0.75em;
   color: #333333;
 }
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card__meta {
+  .card-meta {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card__meta {
+.card--wide .card-meta {
   padding-left: 16px;
   width: 65%;
   float: right;
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card__media {
+  .card-media {
     width: 35%;
     float: left;
   }
 }
-.card--wide .card__media {
+.card--wide .card-media {
   width: 35%;
   float: left;
 }
 
-.card__footer {
+.card-footer {
   font-size: 0;
 }
-.card__footer > .button, .card__footer > input[type="submit"],
-.card__footer > input[type="reset"],
-.card__footer > button,
-.card__footer > .link,
-.card__footer > a {
+.card-footer > .button,
+.card-footer > .link {
   margin-left: 16px;
 }
-.card__footer > .button:first-child, .card__footer > input[type="submit"]:first-child,
-.card__footer > input[type="reset"]:first-child,
-.card__footer > button:first-child,
-.card__footer > .link:first-child,
-.card__footer > a:first-child {
+.card-footer > .button:first-child,
+.card-footer > .link:first-child {
   margin-left: 0;
 }
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card__footer {
+  .card-footer {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card__footer {
+.card--wide .card-footer {
   padding-left: 16px;
   width: 65%;
   float: right;
@@ -256,7 +379,7 @@ img {
 @media only screen and (min-width: 1224px) {
   .grid-system {
     margin: 0 auto;
-    width: 960px;
+    width: 1224px;
   }
 }
 .grid-system .grid:first-child .widget {
@@ -271,7 +394,7 @@ img {
 @media only screen and (min-width: 1224px) {
   .display-system {
     margin: 0 auto;
-    width: 960px;
+    width: 1224px;
   }
 }
 .display-system .grid:first-child .widget {
@@ -286,7 +409,7 @@ img {
 @media only screen and (min-width: 1224px) {
   .form-system {
     margin: 0 auto;
-    width: 960px;
+    width: 1224px;
   }
 }
 .form-system .grid:first-child .widget {
@@ -301,10 +424,25 @@ img {
 @media only screen and (min-width: 1224px) {
   .card-system {
     margin: 0 auto;
-    width: 960px;
+    width: 1224px;
   }
 }
 .card-system .grid:first-child .widget {
+  margin-top: 0;
+}
+
+.article-page {
+  background-color: #eee;
+  font-size: 16px;
+  min-width: 300px;
+}
+@media only screen and (min-width: 1224px) {
+  .article-page {
+    margin: 0 auto;
+    width: 1224px;
+  }
+}
+.article-page .grid:first-child .widget {
   margin-top: 0;
 }
 
@@ -925,7 +1063,7 @@ img {
   padding-right: 32px;
 }
 
-.padded--narrow, .widget, .grid-system, .display-system, .form-system, .card-system {
+.padded--narrow, .widget, .grid-system, .display-system, .form-system, .card-system, .article-page {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -1217,9 +1355,7 @@ img {
     display: inline-block;
   }
 }
-.button, input[type="submit"],
-input[type="reset"],
-button {
+.button {
   display: inline-block;
   padding: 8px;
   cursor: pointer;
@@ -1236,7 +1372,7 @@ button {
   text-align: center;
 }
 
-.link, a {
+.link {
   display: inline-block;
   padding: 0;
   cursor: pointer;
@@ -1251,4 +1387,21 @@ button {
   color: blue;
   text-decoration: underline;
   text-align: left;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav:before, .nav:after {
+  content: "";
+  display: table;
+}
+.nav:after {
+  clear: both;
+}
+.nav li {
+  float: left;
+  margin-right: 16px;
 }

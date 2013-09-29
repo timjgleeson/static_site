@@ -12,7 +12,7 @@
   @include clearfix();
 }
 
-.card__header {
+.card-header {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     padding-left: $gutter / 2;
@@ -26,11 +26,11 @@
   }
 }
 
-.card__title {
-
+.card-title {
+  margin: 0;
 }
 
-.card__content {
+.card-content {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     padding-left: $gutter / 2;
@@ -42,9 +42,13 @@
     width: 65%;
     float: right;
   }
+
+  :first-child {
+    margin-top: 0;
+  }
 }
 
-.card__meta {
+.card-meta {
   font-size: #{(12/16)}em;
   color: lighten(#000, 20%);
 
@@ -60,7 +64,7 @@
   }
 }
 
-.card__media {
+.card-media {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     width: 35%;
@@ -72,7 +76,7 @@
   }
 }
 
-.card__footer {
+.card-footer {
   font-size: 0;
 
   > .button,
