@@ -1,4 +1,5 @@
-.card {
+.card,
+.card--full {
   margin-top: $gutter / 2;
   padding: $gutter / 2;
   border: 1px solid lighten(black, 20%);
@@ -8,36 +9,36 @@
   }
 }
 
-.card--wide {
+.card--full {
   @include clearfix();
 }
 
-.card-header {
+.card__heading {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
   }
-  .card--wide & {
+  .card--full & {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
   }
 }
 
-.card-title {
+.card__title {
   margin: 0;
 }
 
-.card-content {
+.card__content {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
   }
-  .card--wide & {
+  .card--full & {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
@@ -48,7 +49,7 @@
   }
 }
 
-.card-meta {
+.card__meta {
   font-size: #{(12/16)}em;
   color: lighten(#000, 20%);
 
@@ -57,26 +58,26 @@
     width: 65%;
     float: right;
   }
-  .card--wide & {
+  .card--full & {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
   }
 }
 
-.card-media {
+.card__media {
 
   @media #{$palmTopEndMq}, #{$lapTopEndMq} {
     width: 35%;
     float: left;
   }
-  .card--wide & {
+  .card--full & {
     width: 35%;
     float: left;
   }
 }
 
-.card-footer {
+.card__footer {
   font-size: 0;
 
   > .button,
@@ -93,7 +94,7 @@
     width: 65%;
     float: right;
   }
-  .card--wide & {
+  .card--full & {
     padding-left: $gutter / 2;
     width: 65%;
     float: right;

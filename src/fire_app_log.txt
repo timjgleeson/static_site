@@ -1932,3 +1932,656 @@ Load paths:
 2013-09-29 22:31:59 identical css/application-ie8.css 
 2013-09-29 22:31:59 identical css/application-ie9.css 
 2013-09-29 22:32:00 identical css/application.css 
+2013-09-30 18:29:07     error sass/application-ie7.scss (Line 7 of sass/helpers/_all.scss: File to import not found or unreadable: nav.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 18:29:08 overwrite css/application-ie7.css 
+2013-09-30 18:29:09     error sass/application-ie8.scss (Line 7 of sass/helpers/_all.scss: File to import not found or unreadable: nav.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 18:29:09 overwrite css/application-ie8.css 
+2013-09-30 18:29:10     error sass/application-ie9.scss (Line 7 of sass/helpers/_all.scss: File to import not found or unreadable: nav.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 18:29:10 overwrite css/application-ie9.css 
+2013-09-30 18:29:11     error sass/application.scss (Line 7 of sass/helpers/_all.scss: File to import not found or unreadable: nav.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 18:29:11 overwrite css/application.css 
+2013-09-30 18:29:16 overwrite css/application-ie7.css 
+2013-09-30 18:29:17 overwrite css/application-ie8.css 
+2013-09-30 18:29:17 overwrite css/application-ie9.css 
+2013-09-30 18:29:19 overwrite css/application.css 
+2013-09-30 18:29:30 overwrite css/application-ie7.css 
+2013-09-30 18:29:31 overwrite css/application-ie8.css 
+2013-09-30 18:29:32 overwrite css/application-ie9.css 
+2013-09-30 18:29:33 overwrite css/application.css 
+2013-09-30 18:30:25 identical css/application-ie7.css 
+2013-09-30 18:30:26 identical css/application-ie8.css 
+2013-09-30 18:30:26 identical css/application-ie9.css 
+2013-09-30 18:30:27 identical css/application.css 
+2013-09-30 18:30:34     error sass/application-ie7.scss (Line 14 of sass/components/_nav.scss: Invalid CSS after "... display(block)": expected "}", was "';'")
+2013-09-30 18:30:35 overwrite css/application-ie7.css 
+2013-09-30 18:30:35     error sass/application-ie8.scss (Line 14 of sass/components/_nav.scss: Invalid CSS after "... display(block)": expected "}", was "';'")
+2013-09-30 18:30:35 overwrite css/application-ie8.css 
+2013-09-30 18:30:36 overwrite css/application-ie9.css 
+2013-09-30 18:30:37 overwrite css/application.css 
+2013-09-30 18:30:38 overwrite css/application-ie7.css 
+2013-09-30 18:30:39 overwrite css/application-ie8.css 
+2013-09-30 18:30:39 identical css/application-ie9.css 
+2013-09-30 18:31:42 overwrite css/application-ie7.css 
+2013-09-30 18:31:43 overwrite css/application-ie8.css 
+2013-09-30 18:31:44 overwrite css/application-ie9.css 
+2013-09-30 18:31:44 overwrite css/application.css 
+2013-09-30 18:31:45 identical css/application-ie7.css 
+2013-09-30 18:33:55 overwrite css/application-ie7.css 
+2013-09-30 18:33:55 overwrite css/application-ie8.css 
+2013-09-30 18:33:56 overwrite css/application-ie9.css 
+2013-09-30 18:33:57 overwrite css/application.css 
+2013-09-30 18:34:23 overwrite css/application-ie7.css 
+2013-09-30 18:34:24 overwrite css/application-ie8.css 
+2013-09-30 18:34:24 overwrite css/application-ie9.css 
+2013-09-30 18:34:25 overwrite css/application.css 
+2013-09-30 18:34:58 overwrite css/application-ie7.css 
+2013-09-30 18:34:58 overwrite css/application-ie8.css 
+2013-09-30 18:34:59 overwrite css/application-ie9.css 
+2013-09-30 18:35:00 overwrite css/application.css 
+2013-09-30 18:39:50 overwrite css/application-ie7.css 
+2013-09-30 18:39:51 overwrite css/application-ie8.css 
+2013-09-30 18:39:51 overwrite css/application-ie9.css 
+2013-09-30 18:39:52 overwrite css/application.css 
+2013-09-30 18:40:06 overwrite css/application-ie7.css 
+2013-09-30 18:40:07 overwrite css/application-ie8.css 
+2013-09-30 18:40:07 overwrite css/application-ie9.css 
+2013-09-30 18:40:08 overwrite css/application.css 
+2013-09-30 20:13:19 overwrite css/application-ie7.css 
+2013-09-30 20:13:20 overwrite css/application-ie8.css 
+2013-09-30 20:13:20 overwrite css/application-ie9.css 
+2013-09-30 20:13:21 overwrite css/application.css 
+2013-09-30 20:26:05 overwrite css/application-ie7.css 
+2013-09-30 20:26:06 overwrite css/application-ie8.css 
+2013-09-30 20:26:07 overwrite css/application-ie9.css 
+2013-09-30 20:26:07 overwrite css/application.css 
+2013-09-30 20:27:21 overwrite css/application-ie7.css 
+2013-09-30 20:27:21 overwrite css/application-ie8.css 
+2013-09-30 20:27:22 overwrite css/application-ie9.css 
+2013-09-30 20:27:23 overwrite css/application.css 
+2013-09-30 20:53:16 overwrite css/application-ie7.css 
+2013-09-30 20:53:16 overwrite css/application-ie8.css 
+2013-09-30 20:53:17 overwrite css/application-ie9.css 
+2013-09-30 20:53:18 overwrite css/application.css 
+2013-09-30 20:53:33 overwrite css/application-ie7.css 
+2013-09-30 20:53:34 overwrite css/application-ie8.css 
+2013-09-30 20:53:34 overwrite css/application-ie9.css 
+2013-09-30 20:53:35 overwrite css/application.css 
+2013-09-30 20:56:47 overwrite css/application-ie7.css 
+2013-09-30 20:56:48 overwrite css/application-ie8.css 
+2013-09-30 20:56:49 overwrite css/application-ie9.css 
+2013-09-30 20:56:49 overwrite css/application.css 
+2013-09-30 20:57:21 overwrite css/application-ie7.css 
+2013-09-30 20:57:22 overwrite css/application-ie8.css 
+2013-09-30 20:57:23 overwrite css/application-ie9.css 
+2013-09-30 20:57:24 overwrite css/application.css 
+2013-09-30 20:57:59     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:57:59 overwrite css/application-ie7.css 
+2013-09-30 20:57:59     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:00 overwrite css/application-ie8.css 
+2013-09-30 20:58:00     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:00 overwrite css/application-ie9.css 
+2013-09-30 20:58:00     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:01 overwrite css/application.css 
+2013-09-30 20:58:01     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:01 identical css/application-ie7.css 
+2013-09-30 20:58:01     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:02 identical css/application-ie8.css 
+2013-09-30 20:58:02     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:02 identical css/application-ie9.css 
+2013-09-30 20:58:02     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:58:02 identical css/application.css 
+2013-09-30 20:59:29     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:29 identical css/application-ie7.css 
+2013-09-30 20:59:29     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:29 identical css/application-ie8.css 
+2013-09-30 20:59:29     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:30 identical css/application-ie9.css 
+2013-09-30 20:59:30     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:30 identical css/application.css 
+2013-09-30 20:59:30     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:31 identical css/application-ie7.css 
+2013-09-30 20:59:31     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:31 identical css/application-ie8.css 
+2013-09-30 20:59:31     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:32 identical css/application-ie9.css 
+2013-09-30 20:59:32     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:32 identical css/application.css 
+2013-09-30 20:59:38     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:39 identical css/application-ie7.css 
+2013-09-30 20:59:39     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:39 identical css/application-ie8.css 
+2013-09-30 20:59:39     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:40 identical css/application-ie9.css 
+2013-09-30 20:59:40     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:40 identical css/application.css 
+2013-09-30 20:59:40     error sass/application-ie7.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:41 identical css/application-ie7.css 
+2013-09-30 20:59:41     error sass/application-ie8.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:41 identical css/application-ie8.css 
+2013-09-30 20:59:41     error sass/application-ie9.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:41 identical css/application-ie9.css 
+2013-09-30 20:59:42     error sass/application.scss (Line 4 of sass/components/_breadcrumb.scss: Invalid CSS after "...eadcrumb__item ": expected "}", was "{")
+2013-09-30 20:59:42 identical css/application.css 
+2013-09-30 20:59:47 overwrite css/application-ie7.css 
+2013-09-30 20:59:48 overwrite css/application-ie8.css 
+2013-09-30 20:59:48 overwrite css/application-ie9.css 
+2013-09-30 20:59:49 overwrite css/application.css 
+2013-09-30 21:00:36 overwrite css/application-ie7.css 
+2013-09-30 21:00:36 overwrite css/application-ie8.css 
+2013-09-30 21:00:37 overwrite css/application-ie9.css 
+2013-09-30 21:00:38 overwrite css/application.css 
+2013-09-30 21:01:13 overwrite css/application-ie7.css 
+2013-09-30 21:01:14 overwrite css/application-ie8.css 
+2013-09-30 21:01:14 overwrite css/application-ie9.css 
+2013-09-30 21:01:15 overwrite css/application.css 
+2013-09-30 21:01:25 overwrite css/application-ie7.css 
+2013-09-30 21:01:25 overwrite css/application-ie8.css 
+2013-09-30 21:01:26 overwrite css/application-ie9.css 
+2013-09-30 21:01:26 overwrite css/application.css 
+2013-09-30 21:02:11 overwrite css/application-ie7.css 
+2013-09-30 21:02:12 overwrite css/application-ie8.css 
+2013-09-30 21:02:12 overwrite css/application-ie9.css 
+2013-09-30 21:02:13 overwrite css/application.css 
+2013-09-30 21:02:18 overwrite css/application-ie7.css 
+2013-09-30 21:02:19 overwrite css/application-ie8.css 
+2013-09-30 21:02:19 overwrite css/application-ie9.css 
+2013-09-30 21:02:20 overwrite css/application.css 
+2013-09-30 21:02:21 identical css/application-ie7.css 
+2013-09-30 21:07:26 overwrite css/application-ie7.css 
+2013-09-30 21:07:27 overwrite css/application-ie8.css 
+2013-09-30 21:07:27 overwrite css/application-ie9.css 
+2013-09-30 21:07:28 overwrite css/application.css 
+2013-09-30 21:07:32 identical css/application-ie7.css 
+2013-09-30 21:07:33 identical css/application-ie8.css 
+2013-09-30 21:07:34 identical css/application-ie9.css 
+2013-09-30 21:07:34 identical css/application.css 
+2013-09-30 21:07:42 identical css/application-ie7.css 
+2013-09-30 21:07:42 identical css/application-ie8.css 
+2013-09-30 21:07:43 identical css/application-ie9.css 
+2013-09-30 21:07:44 identical css/application.css 
+2013-09-30 21:07:52 overwrite css/application-ie7.css 
+2013-09-30 21:07:53 overwrite css/application-ie8.css 
+2013-09-30 21:07:54 overwrite css/application-ie9.css 
+2013-09-30 21:07:55 overwrite css/application.css 
+2013-09-30 21:08:10 overwrite css/application-ie7.css 
+2013-09-30 21:08:11 overwrite css/application-ie8.css 
+2013-09-30 21:08:11 overwrite css/application-ie9.css 
+2013-09-30 21:08:12 overwrite css/application.css 
+2013-09-30 21:08:34 overwrite css/application-ie7.css 
+2013-09-30 21:08:35 overwrite css/application-ie8.css 
+2013-09-30 21:08:35 overwrite css/application-ie9.css 
+2013-09-30 21:08:36 overwrite css/application.css 
+2013-09-30 21:08:44 overwrite css/application-ie7.css 
+2013-09-30 21:08:45 overwrite css/application-ie8.css 
+2013-09-30 21:08:46 overwrite css/application-ie9.css 
+2013-09-30 21:08:46 overwrite css/application.css 
+2013-09-30 21:09:06 overwrite css/application-ie7.css 
+2013-09-30 21:09:07 overwrite css/application-ie8.css 
+2013-09-30 21:09:07 overwrite css/application-ie9.css 
+2013-09-30 21:09:08 overwrite css/application.css 
+2013-09-30 21:09:16 overwrite css/application-ie7.css 
+2013-09-30 21:09:17 overwrite css/application-ie8.css 
+2013-09-30 21:09:17 overwrite css/application-ie9.css 
+2013-09-30 21:09:18 overwrite css/application.css 
+2013-09-30 21:10:08 overwrite css/application-ie7.css 
+2013-09-30 21:10:09 overwrite css/application-ie8.css 
+2013-09-30 21:10:09 overwrite css/application-ie9.css 
+2013-09-30 21:10:10 overwrite css/application.css 
+2013-09-30 21:10:53 overwrite css/application-ie7.css 
+2013-09-30 21:10:54 overwrite css/application-ie8.css 
+2013-09-30 21:10:55 overwrite css/application-ie9.css 
+2013-09-30 21:10:55 overwrite css/application.css 
+2013-09-30 21:11:13 identical css/application-ie7.css 
+2013-09-30 21:11:14 identical css/application-ie8.css 
+2013-09-30 21:11:14 identical css/application-ie9.css 
+2013-09-30 21:11:15 identical css/application.css 
+2013-09-30 21:14:15 identical css/application-ie7.css 
+2013-09-30 21:14:15 identical css/application-ie8.css 
+2013-09-30 21:14:16 identical css/application-ie9.css 
+2013-09-30 21:14:16 identical css/application.css 
+2013-09-30 21:15:08     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:08 overwrite css/application-ie7.css 
+2013-09-30 21:15:09     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:09 overwrite css/application-ie8.css 
+2013-09-30 21:15:09     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:09 overwrite css/application-ie9.css 
+2013-09-30 21:15:10     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:10 overwrite css/application.css 
+2013-09-30 21:15:10     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:10 identical css/application-ie7.css 
+2013-09-30 21:15:11     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:11 identical css/application-ie8.css 
+2013-09-30 21:15:11     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:11 identical css/application-ie9.css 
+2013-09-30 21:15:12     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:15:12 identical css/application.css 
+2013-09-30 21:16:04     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:05 identical css/application-ie7.css 
+2013-09-30 21:16:05     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:05 identical css/application-ie8.css 
+2013-09-30 21:16:05     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:05 identical css/application-ie9.css 
+2013-09-30 21:16:06     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:06 identical css/application.css 
+2013-09-30 21:16:06     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:06 identical css/application-ie7.css 
+2013-09-30 21:16:07     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:07 identical css/application-ie8.css 
+2013-09-30 21:16:07     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:07 identical css/application-ie9.css 
+2013-09-30 21:16:07     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:08 identical css/application.css 
+2013-09-30 21:16:22     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:22 identical css/application-ie7.css 
+2013-09-30 21:16:22     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:22 identical css/application-ie8.css 
+2013-09-30 21:16:23     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:23 identical css/application-ie9.css 
+2013-09-30 21:16:23     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:23 identical css/application.css 
+2013-09-30 21:16:24     error sass/application-ie7.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:24 identical css/application-ie7.css 
+2013-09-30 21:16:24     error sass/application-ie8.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:24 identical css/application-ie8.css 
+2013-09-30 21:16:24     error sass/application-ie9.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:25 identical css/application-ie9.css 
+2013-09-30 21:16:25     error sass/application.scss (Line 9 of sass/utilities/_settings.scss: Invalid CSS after "$secondaryColor: ": expected expression (e.g. 1px, bold), was "; // color:")
+2013-09-30 21:16:25 identical css/application.css 
+2013-09-30 21:16:44 overwrite css/application-ie7.css 
+2013-09-30 21:16:44 overwrite css/application-ie8.css 
+2013-09-30 21:16:45 overwrite css/application-ie9.css 
+2013-09-30 21:16:46 overwrite css/application.css 
+2013-09-30 21:16:52 identical css/application-ie7.css 
+2013-09-30 21:16:53 identical css/application-ie8.css 
+2013-09-30 21:16:53 identical css/application-ie9.css 
+2013-09-30 21:16:54 identical css/application.css 
+2013-09-30 21:17:32 identical css/application-ie7.css 
+2013-09-30 21:17:32 identical css/application-ie8.css 
+2013-09-30 21:17:33 identical css/application-ie9.css 
+2013-09-30 21:17:33 identical css/application.css 
+2013-09-30 21:17:38 identical css/application-ie7.css 
+2013-09-30 21:17:39 identical css/application-ie8.css 
+2013-09-30 21:17:39 identical css/application-ie9.css 
+2013-09-30 21:17:40 identical css/application.css 
+2013-09-30 21:17:46 identical css/application-ie7.css 
+2013-09-30 21:17:47 identical css/application-ie8.css 
+2013-09-30 21:17:47 identical css/application-ie9.css 
+2013-09-30 21:17:48 identical css/application.css 
+2013-09-30 21:17:52 identical css/application-ie7.css 
+2013-09-30 21:17:53 identical css/application-ie8.css 
+2013-09-30 21:17:54 identical css/application-ie9.css 
+2013-09-30 21:17:54 identical css/application.css 
+2013-09-30 21:17:58 identical css/application-ie7.css 
+2013-09-30 21:17:59 identical css/application-ie8.css 
+2013-09-30 21:17:59 identical css/application-ie9.css 
+2013-09-30 21:18:00 identical css/application.css 
+2013-09-30 21:18:02 identical css/application-ie7.css 
+2013-09-30 21:18:03 identical css/application-ie8.css 
+2013-09-30 21:18:03 identical css/application-ie9.css 
+2013-09-30 21:18:04 identical css/application.css 
+2013-09-30 21:18:13 identical css/application-ie7.css 
+2013-09-30 21:18:14 identical css/application-ie8.css 
+2013-09-30 21:18:14 identical css/application-ie9.css 
+2013-09-30 21:18:15 identical css/application.css 
+2013-09-30 21:18:30 overwrite css/application-ie7.css 
+2013-09-30 21:18:31 overwrite css/application-ie8.css 
+2013-09-30 21:18:32 overwrite css/application-ie9.css 
+2013-09-30 21:18:32 overwrite css/application.css 
+2013-09-30 21:19:12 overwrite css/application-ie7.css 
+2013-09-30 21:19:13 overwrite css/application-ie8.css 
+2013-09-30 21:19:13 overwrite css/application-ie9.css 
+2013-09-30 21:19:14 overwrite css/application.css 
+2013-09-30 21:19:39 overwrite css/application-ie7.css 
+2013-09-30 21:19:39 overwrite css/application-ie8.css 
+2013-09-30 21:19:40 overwrite css/application-ie9.css 
+2013-09-30 21:19:40 overwrite css/application.css 
+2013-09-30 21:19:49 identical css/application-ie7.css 
+2013-09-30 21:19:49 identical css/application-ie8.css 
+2013-09-30 21:19:50 identical css/application-ie9.css 
+2013-09-30 21:19:51 identical css/application.css 
+2013-09-30 21:20:21 overwrite css/application-ie7.css 
+2013-09-30 21:20:22 overwrite css/application-ie8.css 
+2013-09-30 21:20:23 overwrite css/application-ie9.css 
+2013-09-30 21:20:23 overwrite css/application.css 
+2013-09-30 21:20:35 overwrite css/application-ie7.css 
+2013-09-30 21:20:36 overwrite css/application-ie8.css 
+2013-09-30 21:20:37 overwrite css/application-ie9.css 
+2013-09-30 21:20:37 overwrite css/application.css 
+2013-09-30 21:20:44 identical css/application-ie7.css 
+2013-09-30 21:20:45 identical css/application-ie8.css 
+2013-09-30 21:20:45 identical css/application-ie9.css 
+2013-09-30 21:20:46 identical css/application.css 
+2013-09-30 21:20:59 overwrite css/application-ie7.css 
+2013-09-30 21:20:59 overwrite css/application-ie8.css 
+2013-09-30 21:21:00 overwrite css/application-ie9.css 
+2013-09-30 21:21:01 overwrite css/application.css 
+2013-09-30 21:50:22 overwrite css/application-ie7.css 
+2013-09-30 21:50:23 overwrite css/application-ie8.css 
+2013-09-30 21:50:23 overwrite css/application-ie9.css 
+2013-09-30 21:50:24 overwrite css/application.css 
+2013-09-30 21:50:31 overwrite css/application-ie7.css 
+2013-09-30 21:50:32 overwrite css/application-ie8.css 
+2013-09-30 21:50:32 overwrite css/application-ie9.css 
+2013-09-30 21:50:33 overwrite css/application.css 
+2013-09-30 21:59:47     error sass/application-ie7.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:47 overwrite css/application-ie7.css 
+2013-09-30 21:59:48     error sass/application-ie8.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:48 overwrite css/application-ie8.css 
+2013-09-30 21:59:48     error sass/application-ie9.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:48 overwrite css/application-ie9.css 
+2013-09-30 21:59:48     error sass/application.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:49 overwrite css/application.css 
+2013-09-30 21:59:49     error sass/application-ie7.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:49 identical css/application-ie7.css 
+2013-09-30 21:59:49     error sass/application-ie8.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:50 identical css/application-ie8.css 
+2013-09-30 21:59:50     error sass/application-ie9.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:50 identical css/application-ie9.css 
+2013-09-30 21:59:50     error sass/application.scss (Line 2 of sass/components/_page.scss: Invalid CSS after "  @include ": expected identifier, was ".padded;")
+2013-09-30 21:59:50 identical css/application.css 
+2013-09-30 21:59:57 overwrite css/application-ie7.css 
+2013-09-30 21:59:58 overwrite css/application-ie8.css 
+2013-09-30 21:59:58 overwrite css/application-ie9.css 
+2013-09-30 21:59:59 overwrite css/application.css 
+2013-09-30 22:00:33     error sass/application-ie7.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:34 overwrite css/application-ie7.css 
+2013-09-30 22:00:34     error sass/application-ie8.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:34 overwrite css/application-ie8.css 
+2013-09-30 22:00:34     error sass/application-ie9.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:35 overwrite css/application-ie9.css 
+2013-09-30 22:00:35     error sass/application.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:35 overwrite css/application.css 
+2013-09-30 22:00:35     error sass/application-ie7.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:36 identical css/application-ie7.css 
+2013-09-30 22:00:36     error sass/application-ie8.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:36 identical css/application-ie8.css 
+2013-09-30 22:00:36     error sass/application-ie9.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:37 identical css/application-ie9.css 
+2013-09-30 22:00:37     error sass/application.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:37 identical css/application.css 
+2013-09-30 22:00:37     error sass/application-ie7.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:38 identical css/application-ie7.css 
+2013-09-30 22:00:38     error sass/application-ie8.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:38 identical css/application-ie8.css 
+2013-09-30 22:00:38     error sass/application-ie9.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:39 identical css/application-ie9.css 
+2013-09-30 22:00:39     error sass/application.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:39 identical css/application.css 
+2013-09-30 22:00:39     error sass/application-ie7.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:40 identical css/application-ie7.css 
+2013-09-30 22:00:40     error sass/application-ie8.scss (Line 2 of sass/views/_all.scss: File to import not found or unreadable: system.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-09-30 22:00:40 identical css/application-ie8.css 
+2013-09-30 22:00:41 overwrite css/application-ie9.css 
+2013-09-30 22:00:41 overwrite css/application.css 
+2013-09-30 22:10:27 overwrite css/application-ie7.css 
+2013-09-30 22:10:28 overwrite css/application-ie8.css 
+2013-09-30 22:10:28 overwrite css/application-ie9.css 
+2013-09-30 22:10:29 overwrite css/application.css 
+2013-09-30 22:14:31 overwrite css/application-ie7.css 
+2013-09-30 22:14:32 overwrite css/application-ie8.css 
+2013-09-30 22:14:33 overwrite css/application-ie9.css 
+2013-09-30 22:14:34 overwrite css/application.css 
+2013-09-30 22:14:38 overwrite css/application-ie7.css 
+2013-09-30 22:14:39 overwrite css/application-ie8.css 
+2013-09-30 22:14:39 overwrite css/application-ie9.css 
+2013-09-30 22:14:40 overwrite css/application.css 
+2013-09-30 22:36:56 overwrite css/application-ie7.css 
+2013-09-30 22:36:57 overwrite css/application-ie8.css 
+2013-09-30 22:36:57 overwrite css/application-ie9.css 
+2013-09-30 22:36:58 overwrite css/application.css 
+2013-09-30 22:38:09 overwrite css/application-ie7.css 
+2013-09-30 22:38:10 overwrite css/application-ie8.css 
+2013-09-30 22:38:10 overwrite css/application-ie9.css 
+2013-09-30 22:38:11 overwrite css/application.css 
+2013-09-30 22:38:45 overwrite css/application-ie7.css 
+2013-09-30 22:38:46 overwrite css/application-ie8.css 
+2013-09-30 22:38:46 overwrite css/application-ie9.css 
+2013-09-30 22:38:47 overwrite css/application.css 

@@ -4,6 +4,15 @@ $ie_version: false!default;
 $baseFontSize: 16px;
 $baseFontFamily: sans-serif;
 
+$baseColor: #2c3e50;
+$primaryColor: #8e44ad; // color: purple
+$secondaryColor: #16a085; // color: teal
+
+$successColor: #2ecc71;
+$infoColor: #2980b9;
+$warningColor: #f1c40f;
+$dangerColor: #c0392b;
+
 // GRID SETTINGS
 $baseMargin: $baseFontSize;
 $gutter: $baseMargin * 2;

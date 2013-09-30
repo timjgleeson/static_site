@@ -1,0 +1,79 @@
+.grid
+  .grid__item
+    %form{:action => "#", :method => "GET"}
+      .form-row
+        %label.form-row__text{:for => "input-1"}
+          Form label
+        .form-row__value
+          %input.form-row__input{:index => "index-1", :name => "input-1", :type => "text", :value => "Input"}/
+        .form-row__description
+          Description of form row
+      .form-row
+        %label.form-row__text{:for => "input-2"}
+          Form label
+        .form-row__value
+          %select.form-row__input{:index => "index-2", :name => "input-2", :type => "text", :value => "Input"}
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+        .form-row__description
+          Description of form row
+      .form-row
+        %label.form-row__text{:for => "input-3"}
+          Disabled form input
+        .form-row__value
+          %input.form-row__input.is-disabled{:index => "index-3", :name => "input-3", :type => "text", :value => "Input", :disabled => true}/
+        .form-row__description
+          Description of form row
+      .form-row
+        %label.form-row__text{:for => "input-3"}
+          Disabled form input
+        .form-row__value
+          %select.form-row__input{:index => "index-2", :name => "input-2", :type => "text", :value => "Input", :disabled => true}
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+            %option{:value=>"test"} Testing
+        .form-row__description
+          Description of form row
+      .form-row
+        %label.form-row__text
+          Form label
+        .form-row__value
+          %p.form-row__output Output
+        .form-row__description
+          Description of form row
+      .form-row.form-row--full
+        %label.form-row__text{:for => "input-10"}
+          Form label
+        .form-row__value
+          %input.form-row__input{:index => "index-10", :name => "input-10", :type => "text", :value => "Input"}/
+        .form-row__description
+          Description of form row
+      .form-row.form-row--full
+        %label.form-row__text
+          Form label
+        .form-row__value
+          %p.form-row__output Output
+        .form-row__description
+          Description of form row
+      .form-row.form-row--error
+        %label.form-row__text{:for => "input-1"}
+          Form label
+        .form-row__value
+          %input.form-row__input{:index => "index-1", :name => "input-1", :type => "text", :value => "Input"}/
+        .form-row__description
+          Description of form row
+        .form-row__description--error
+          Error message of form row
+      .form-actions
+        %button.button Button
+        %a.button{:href => "#"} Link as button
+        %input.button{:type => "reset", :value => "Clear"}/
+        %input.button{:type => "submit", :value => "Submit"}/
+        %input.button{:type => "button", :value => "Button"}/

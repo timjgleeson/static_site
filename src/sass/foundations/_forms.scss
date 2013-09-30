@@ -45,18 +45,23 @@ input, select, textarea {
   }
 }
 
-.form-row__input {
+.text-input {
   -webkit-appearance: none;
   border-radius: 0;
   padding: $gutter / 4;
   width: 100%;
   font-family: inherit;
   font-size: inherit;
-  border: 1px solid lighten(#000, 20%);
+  border: 1px solid lighten($baseColor, 20%);
+}
 
-  .form-row--error & {
-    border: 1px solid red;
-  }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  @extend .text-input;
 }
 
 .form-row__output {
@@ -69,7 +74,7 @@ input, select, textarea {
   width: 100%;
   margin-top: $gutter / 4;
   font-size: #{(12/16)}em;
-  color: lighten(#000, 20%);
+  color: lighten($baseColor, 20%);
 
   @include respond_to($lapdeskMq) {
     width: 70%;
@@ -83,20 +88,32 @@ input, select, textarea {
   }
 }
 
+
+.form-row--error {
+  .form-row__text {
+    color: $dangerColor;
+  }
+
+  .form-row__input {
+    border: 1px solid $dangerColor;
+  }
+}
+
 .form-row__description--error {
   float: left;
   width: 100%;
   margin-top: $gutter / 4;
   padding: $gutter / 4;
-  background-color: red;
+  background-color: $dangerColor;
+  color: white;
 }
 
 .form-actions {
-  margin-top: $baseMargin;
   font-size: 0;
 
   > .button,
   > .link {
+    margin-top: $baseMargin;
     margin-left: $gutter / 2;
 
     &:first-child {

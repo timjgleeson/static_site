@@ -19,6 +19,7 @@ html, body, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, le
 body {
   font-size: 16px;
   font-family: sans-serif;
+  color: #2c3e50;
   line-height: 1.5;
   margin: 0;
 }
@@ -26,6 +27,7 @@ body {
 img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 ::-moz-selection {
@@ -128,22 +130,6 @@ li ol {
   margin-top: 0;
 }
 
-.page-header {
-  border-bottom: 1px solid #333333;
-  padding-bottom: 8px;
-}
-
-.page-title,
-.page-subtitle {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-.page-subtitle {
-  color: #333333;
-}
-
 input, select, textarea {
   font-size: 16px;
 }
@@ -178,17 +164,19 @@ input, select, textarea {
   width: 100%;
 }
 
-.form-row__input {
+.text-input, input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
   -webkit-appearance: none;
   border-radius: 0;
   padding: 8px;
   width: 100%;
   font-family: inherit;
   font-size: inherit;
-  border: 1px solid #333333;
-}
-.form-row--error .form-row__input {
-  border: 1px solid red;
+  border: 1px solid #507192;
 }
 
 .form-row__output {
@@ -201,7 +189,7 @@ input, select, textarea {
   width: 100%;
   margin-top: 8px;
   font-size: 0.75em;
-  color: #333333;
+  color: #507192;
   width: 70%;
   margin-left: 30%;
 }
@@ -210,20 +198,28 @@ input, select, textarea {
   margin-left: 0;
 }
 
+.form-row--error .form-row__text {
+  color: #c0392b;
+}
+.form-row--error .form-row__input {
+  border: 1px solid #c0392b;
+}
+
 .form-row__description--error {
   float: left;
   width: 100%;
   margin-top: 8px;
   padding: 8px;
-  background-color: red;
+  background-color: #c0392b;
+  color: white;
 }
 
 .form-actions {
-  margin-top: 16px;
   font-size: 0;
 }
 .form-actions > .button,
 .form-actions > .link {
+  margin-top: 16px;
   margin-left: 16px;
 }
 .form-actions > .button:first-child,
@@ -231,101 +227,157 @@ input, select, textarea {
   margin-left: 0;
 }
 
-.card {
+.page {
+  margin: 0 auto;
+  width: 1224px;
+}
+
+.page__heading {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+}
+
+.page__title,
+.page__subtitle {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.page__subtitle {
+  color: #333333;
+}
+
+.nav, .breadcrumb, .pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+}
+.nav li, .breadcrumb li, .pagination li {
+  float: left;
+  margin-right: 16px;
+}
+
+.nav--full {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav--full li a {
+  display: block;
+}
+
+.breadcrumb .breadcrumb__item {
+  position: relative;
+}
+.breadcrumb .breadcrumb__item:after {
+  content: "/";
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+.breadcrumb .breadcrumb__item.is-active:after {
+  content: "";
+}
+
+.card,
+.card--full {
   margin-top: 16px;
   padding: 16px;
   border: 1px solid #333333;
 }
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card {
+  .card,
+  .card--full {
     zoom: 1;
   }
 }
 
-.card--wide {
+.card--full {
   zoom: 1;
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card-header {
+  .card__heading {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card-header {
+.card--full .card__heading {
   padding-left: 16px;
   width: 65%;
   float: right;
 }
 
-.card-title {
+.card__title {
   margin: 0;
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card-content {
+  .card__content {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card-content {
+.card--full .card__content {
   padding-left: 16px;
   width: 65%;
   float: right;
 }
-.card-content :first-child {
+.card__content :first-child {
   margin-top: 0;
 }
 
-.card-meta {
+.card__meta {
   font-size: 0.75em;
   color: #333333;
 }
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card-meta {
+  .card__meta {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card-meta {
+.card--full .card__meta {
   padding-left: 16px;
   width: 65%;
   float: right;
 }
 
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card-media {
+  .card__media {
     width: 35%;
     float: left;
   }
 }
-.card--wide .card-media {
+.card--full .card__media {
   width: 35%;
   float: left;
 }
 
-.card-footer {
+.card__footer {
   font-size: 0;
 }
-.card-footer > .button,
-.card-footer > .link {
+.card__footer > .button,
+.card__footer > .link {
   margin-left: 16px;
 }
-.card-footer > .button:first-child,
-.card-footer > .link:first-child {
+.card__footer > .button:first-child,
+.card__footer > .link:first-child {
   margin-left: 0;
 }
 @media only screen and (min-width: 384px) and (max-width: 767px), only screen and (min-width: 996px) and (max-width: 1223px) {
-  .card-footer {
+  .card__footer {
     padding-left: 16px;
     width: 65%;
     float: right;
   }
 }
-.card--wide .card-footer {
+.card--full .card__footer {
   padding-left: 16px;
   width: 65%;
   float: right;
@@ -335,68 +387,14 @@ input, select, textarea {
   padding-top: 16px;
   padding-bottom: 16px;
   margin-top: 16px;
-  background-color: #222;
+  background-color: #2ecc71;
   color: white;
+  border-radius: 3px;
 }
 .widget .widget {
   padding: 0 8px;
   background-color: white;
   color: #222;
-}
-
-.grid-system {
-  background-color: #eee;
-  font-size: 16px;
-  min-width: 300px;
-  margin: 0 auto;
-  width: 1224px;
-}
-.grid-system .grid:first-child .widget {
-  margin-top: 0;
-}
-
-.display-system {
-  background-color: #eee;
-  font-size: 16px;
-  min-width: 300px;
-  margin: 0 auto;
-  width: 1224px;
-}
-.display-system .grid:first-child .widget {
-  margin-top: 0;
-}
-
-.form-system {
-  background-color: #eee;
-  font-size: 16px;
-  min-width: 300px;
-  margin: 0 auto;
-  width: 1224px;
-}
-.form-system .grid:first-child .widget {
-  margin-top: 0;
-}
-
-.card-system {
-  background-color: #eee;
-  font-size: 16px;
-  min-width: 300px;
-  margin: 0 auto;
-  width: 1224px;
-}
-.card-system .grid:first-child .widget {
-  margin-top: 0;
-}
-
-.article-page {
-  background-color: #eee;
-  font-size: 16px;
-  min-width: 300px;
-  margin: 0 auto;
-  width: 1224px;
-}
-.article-page .grid:first-child .widget {
-  margin-top: 0;
 }
 
 .grid {
@@ -718,12 +716,12 @@ input, select, textarea {
   width: expression((this.parentNode.clientWidth * 0.875 - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px");
 }
 
-.padded {
+.padded, .page {
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.padded--narrow, .widget, .grid-system, .display-system, .form-system, .card-system, .article-page {
+.padded--narrow, .widget {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -862,6 +860,20 @@ input, select, textarea {
   zoom: 1;
 }
 
+.pull-right {
+  float: right;
+  margin-right: 16px;
+}
+
+.pull-left {
+  float: left;
+  margin-right: 16px;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
 .button {
   display: inline;
   zoom: 1;
@@ -896,15 +908,4 @@ input, select, textarea {
   color: blue;
   text-decoration: underline;
   text-align: left;
-}
-
-.nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  zoom: 1;
-}
-.nav li {
-  float: left;
-  margin-right: 16px;
 }

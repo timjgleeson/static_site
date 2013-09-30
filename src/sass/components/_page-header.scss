@@ -1,15 +1,15 @@
-.page-header {
+.page__heading {
   border-bottom: 1px solid lighten(black, 20%);
   padding-bottom: $gutter / 4;
 }
 
-.page-title,
-.page-subtitle {
+.page__title,
+.page__subtitle {
   @include display(inline);
   margin: 0;
   padding: 0;
 }
 
-.page-subtitle {
+.page__subtitle {
   color: lighten(black, 20%);
 }

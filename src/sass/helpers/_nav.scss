@@ -1,8 +1,0 @@
-.nav {
-  @include remove_default_list_styling();
-  @include clearfix();
-
-  li {
-    @include pull-left();
-  }
-}

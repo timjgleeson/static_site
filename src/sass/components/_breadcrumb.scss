@@ -1,0 +1,20 @@
+.breadcrumb {
+  @extend .nav;
+
+  .breadcrumb__item {
+    position: relative;
+
+    &:after {
+      content: "/";
+      position: absolute;
+      top: 0;
+      right: -( ($gutter / 4) + ($gutter / 16) );
+    }
+    &.is-active {
+
+      &:after {
+        content: "";
+      }
+    }
+  }
+}

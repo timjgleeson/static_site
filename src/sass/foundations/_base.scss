@@ -5,7 +5,6 @@
   word-wrap: break-word;
 }
 
-
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   @include display(block);
   margin: 0;
@@ -20,6 +19,7 @@ html, body, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, le
 body {
   font-size: $baseFontSize;
   font-family: $baseFontFamily;
+  color: $baseColor;
   line-height: 1.5;
   margin: 0;
 }
@@ -27,4 +27,5 @@ body {
 img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }

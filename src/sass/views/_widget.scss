@@ -3,8 +3,9 @@
   padding-top: $gutter / 2;
   padding-bottom: $gutter / 2;
   margin-top: $baseMargin;
-  background-color: #222;
+  background-color: $successColor;
   color: white;
+  border-radius: 3px;
 
   .widget {
     padding: 0 $baseMargin / 2;
