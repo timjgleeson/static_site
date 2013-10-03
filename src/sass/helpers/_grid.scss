@@ -174,31 +174,17 @@
     @include grid_rev('lap-');
     @include grid_item_width('lap-');
   }
-
-  @media #{$lapdeskMq} {
-    @include grid_full('lapdesk-');
-    @include grid_narrow('lapdesk-');
-    @include grid_wide('lapdesk-');
-    @include grid_rev('lapdesk-');
-    @include grid_item_width('lapdesk-');
-  }
-
-  @media #{$deskMq} {
-    @include grid_full('desk-');
-    @include grid_narrow('desk-');
-    @include grid_wide('desk-');
-    @include grid_rev('desk-');
-    @include grid_item_width('desk-');
-  }
 }
 
-@include is_ie() {
+@include respond-to($lapdeskMq) {
   @include grid_full('lapdesk-');
   @include grid_narrow('lapdesk-');
   @include grid_wide('lapdesk-');
   @include grid_rev('lapdesk-');
   @include grid_item_width('lapdesk-');
+}
 
+@include respond-to($deskMq) {
   @include grid_full('desk-');
   @include grid_narrow('desk-');
   @include grid_wide('desk-');

@@ -2585,3 +2585,705 @@ Load paths:
 2013-09-30 22:38:46 overwrite css/application-ie8.css 
 2013-09-30 22:38:46 overwrite css/application-ie9.css 
 2013-09-30 22:38:47 overwrite css/application.css 
+2013-10-01 20:11:13 overwrite css/application-ie7.css 
+2013-10-01 20:11:15 overwrite css/application-ie8.css 
+2013-10-01 20:11:18 overwrite css/application-ie9.css 
+2013-10-01 20:11:20 overwrite css/application.css 
+2013-10-01 21:19:24 identical css/application-ie7.css 
+2013-10-01 21:19:25 identical css/application-ie8.css 
+2013-10-01 21:19:26 identical css/application-ie9.css 
+2013-10-01 21:19:27 identical css/application.css 
+2013-10-01 21:55:37 identical css/application-ie7.css 
+2013-10-01 21:55:37 identical css/application-ie8.css 
+2013-10-01 21:55:38 identical css/application-ie9.css 
+2013-10-01 21:55:39 identical css/application.css 
+2013-10-01 21:57:05 identical css/application-ie7.css 
+2013-10-01 21:57:06 identical css/application-ie8.css 
+2013-10-01 21:57:07 identical css/application-ie9.css 
+2013-10-01 21:57:08 identical css/application.css 
+2013-10-01 21:58:12 overwrite css/application-ie7.css 
+2013-10-01 21:58:13 overwrite css/application-ie8.css 
+2013-10-01 21:58:14 overwrite css/application-ie9.css 
+2013-10-01 21:58:14 overwrite css/application.css 
+2013-10-01 21:59:18     error sass/application-ie7.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:18 overwrite css/application-ie7.css 
+2013-10-01 21:59:19     error sass/application-ie8.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:19 overwrite css/application-ie8.css 
+2013-10-01 21:59:19     error sass/application-ie9.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:19 overwrite css/application-ie9.css 
+2013-10-01 21:59:20     error sass/application.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:20 overwrite css/application.css 
+2013-10-01 21:59:21     error sass/application-ie7.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:21 identical css/application-ie7.css 
+2013-10-01 21:59:22     error sass/application-ie8.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:22 identical css/application-ie8.css 
+2013-10-01 21:59:22     error sass/application-ie9.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:23 identical css/application-ie9.css 
+2013-10-01 21:59:23     error sass/application.scss (Line 55 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 21:59:23 identical css/application.css 
+2013-10-01 22:00:05 overwrite css/application-ie7.css 
+2013-10-01 22:00:05 overwrite css/application-ie8.css 
+2013-10-01 22:00:06 overwrite css/application-ie9.css 
+2013-10-01 22:00:07 overwrite css/application.css 
+2013-10-01 22:00:25 overwrite css/application-ie7.css 
+2013-10-01 22:00:25 overwrite css/application-ie8.css 
+2013-10-01 22:00:26 overwrite css/application-ie9.css 
+2013-10-01 22:00:27 overwrite css/application.css 
+2013-10-01 22:00:36 overwrite css/application-ie7.css 
+2013-10-01 22:00:37 overwrite css/application-ie8.css 
+2013-10-01 22:00:37 overwrite css/application-ie9.css 
+2013-10-01 22:00:38 overwrite css/application.css 
+2013-10-01 22:02:10 overwrite css/application-ie7.css 
+2013-10-01 22:02:10 overwrite css/application-ie8.css 
+2013-10-01 22:02:11 overwrite css/application-ie9.css 
+2013-10-01 22:02:12 overwrite css/application.css 
+2013-10-01 22:02:49 overwrite css/application-ie7.css 
+2013-10-01 22:02:50 overwrite css/application-ie8.css 
+2013-10-01 22:02:51 overwrite css/application-ie9.css 
+2013-10-01 22:02:52 overwrite css/application.css 
+2013-10-01 22:03:18 overwrite css/application-ie7.css 
+2013-10-01 22:03:18 overwrite css/application-ie8.css 
+2013-10-01 22:03:19 overwrite css/application-ie9.css 
+2013-10-01 22:03:20 overwrite css/application.css 
+2013-10-01 22:03:21 overwrite css/application-ie7.css 
+2013-10-01 22:03:21 overwrite css/application-ie8.css 
+2013-10-01 22:04:06 overwrite css/application-ie7.css 
+2013-10-01 22:04:07 overwrite css/application-ie8.css 
+2013-10-01 22:04:08 overwrite css/application-ie9.css 
+2013-10-01 22:04:09 overwrite css/application.css 
+2013-10-01 22:04:33 overwrite css/application-ie7.css 
+2013-10-01 22:04:34 overwrite css/application-ie8.css 
+2013-10-01 22:04:35 overwrite css/application-ie9.css 
+2013-10-01 22:04:35 overwrite css/application.css 
+2013-10-01 22:08:46     error sass/application-ie7.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:47 overwrite css/application-ie7.css 
+2013-10-01 22:08:47     error sass/application-ie8.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:47 overwrite css/application-ie8.css 
+2013-10-01 22:08:48     error sass/application-ie9.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:48 overwrite css/application-ie9.css 
+2013-10-01 22:08:48     error sass/application.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:48 overwrite css/application.css 
+2013-10-01 22:08:49     error sass/application-ie7.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:49 identical css/application-ie7.css 
+2013-10-01 22:08:50     error sass/application-ie8.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:50 identical css/application-ie8.css 
+2013-10-01 22:08:50     error sass/application-ie9.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:50 identical css/application-ie9.css 
+2013-10-01 22:08:51     error sass/application.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:08:51 identical css/application.css 
+2013-10-01 22:10:15     error sass/application-ie7.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:16 identical css/application-ie7.css 
+2013-10-01 22:10:16     error sass/application-ie8.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:16 identical css/application-ie8.css 
+2013-10-01 22:10:17     error sass/application-ie9.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:17 identical css/application-ie9.css 
+2013-10-01 22:10:17     error sass/application.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:18 identical css/application.css 
+2013-10-01 22:10:18     error sass/application-ie7.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:18 identical css/application-ie7.css 
+2013-10-01 22:10:19     error sass/application-ie8.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:19 identical css/application-ie8.css 
+2013-10-01 22:10:19     error sass/application-ie9.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:20 identical css/application-ie9.css 
+2013-10-01 22:10:20     error sass/application.scss (Line 6 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:20 identical css/application.css 
+2013-10-01 22:10:38     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:38 overwrite css/application-ie7.css 
+2013-10-01 22:10:38     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:39 overwrite css/application-ie8.css 
+2013-10-01 22:10:39     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:39 overwrite css/application-ie9.css 
+2013-10-01 22:10:40     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:40 overwrite css/application.css 
+2013-10-01 22:10:40     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:41 identical css/application-ie7.css 
+2013-10-01 22:10:41     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:41 identical css/application-ie8.css 
+2013-10-01 22:10:42     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:42 identical css/application-ie9.css 
+2013-10-01 22:10:42     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:10:42 identical css/application.css 
+2013-10-01 22:11:37     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:37 identical css/application-ie7.css 
+2013-10-01 22:11:37     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:37 identical css/application-ie8.css 
+2013-10-01 22:11:38     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:38 identical css/application-ie9.css 
+2013-10-01 22:11:39     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:39 identical css/application.css 
+2013-10-01 22:11:39     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:39 identical css/application-ie7.css 
+2013-10-01 22:11:40     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:40 identical css/application-ie8.css 
+2013-10-01 22:11:41     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:41 identical css/application-ie9.css 
+2013-10-01 22:11:41     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:11:41 identical css/application.css 
+2013-10-01 22:12:01     error sass/application-ie7.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:01 overwrite css/application-ie7.css 
+2013-10-01 22:12:01     error sass/application-ie8.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:02 overwrite css/application-ie8.css 
+2013-10-01 22:12:02     error sass/application-ie9.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:02 overwrite css/application-ie9.css 
+2013-10-01 22:12:03     error sass/application.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:03 overwrite css/application.css 
+2013-10-01 22:12:03     error sass/application-ie7.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:04 identical css/application-ie7.css 
+2013-10-01 22:12:04     error sass/application-ie8.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:04 identical css/application-ie8.css 
+2013-10-01 22:12:05     error sass/application-ie9.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:05 identical css/application-ie9.css 
+2013-10-01 22:12:05     error sass/application.scss (Line 1 of sass/helpers/_button.scss: Invalid CSS after "...ckgroundColor: ": expected expression (e.g. 1px, bold), was "#{$baseColor},")
+2013-10-01 22:12:06 identical css/application.css 
+2013-10-01 22:12:08     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:08 overwrite css/application-ie7.css 
+2013-10-01 22:12:08     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:08 overwrite css/application-ie8.css 
+2013-10-01 22:12:09     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:09 overwrite css/application-ie9.css 
+2013-10-01 22:12:10     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:10 overwrite css/application.css 
+2013-10-01 22:12:10     error sass/application-ie7.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:11 identical css/application-ie7.css 
+2013-10-01 22:12:11     error sass/application-ie8.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:11 identical css/application-ie8.css 
+2013-10-01 22:12:12     error sass/application-ie9.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:12 identical css/application-ie9.css 
+2013-10-01 22:12:12     error sass/application.scss (Line 9 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:12:13 identical css/application.css 
+2013-10-01 22:12:27     error sass/application-ie7.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:28 overwrite css/application-ie7.css 
+2013-10-01 22:12:28     error sass/application-ie8.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:28 overwrite css/application-ie8.css 
+2013-10-01 22:12:29     error sass/application-ie9.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:29 overwrite css/application-ie9.css 
+2013-10-01 22:12:29     error sass/application.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:30 overwrite css/application.css 
+2013-10-01 22:12:30     error sass/application-ie7.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:30 identical css/application-ie7.css 
+2013-10-01 22:12:31     error sass/application-ie8.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:31 identical css/application-ie8.css 
+2013-10-01 22:12:31     error sass/application-ie9.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:32 identical css/application-ie9.css 
+2013-10-01 22:12:32     error sass/application.scss (Line 21 of sass/helpers/_button.scss: Invalid CSS after "...ckground-color ": expected "{", was "$backgroundHove...")
+2013-10-01 22:12:32 identical css/application.css 
+2013-10-01 22:12:42 overwrite css/application-ie7.css 
+2013-10-01 22:12:43 overwrite css/application-ie8.css 
+2013-10-01 22:12:43 overwrite css/application-ie9.css 
+2013-10-01 22:12:44 overwrite css/application.css 
+2013-10-01 22:13:16     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:16 overwrite css/application-ie7.css 
+2013-10-01 22:13:16     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:16 overwrite css/application-ie8.css 
+2013-10-01 22:13:17     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:17 overwrite css/application-ie9.css 
+2013-10-01 22:13:18     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:18 overwrite css/application.css 
+2013-10-01 22:13:18     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:19 identical css/application-ie7.css 
+2013-10-01 22:13:19     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:19 identical css/application-ie8.css 
+2013-10-01 22:13:20     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:20 identical css/application-ie9.css 
+2013-10-01 22:13:20     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:21 identical css/application.css 
+2013-10-01 22:13:24     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:24 identical css/application-ie7.css 
+2013-10-01 22:13:24     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:25 identical css/application-ie8.css 
+2013-10-01 22:13:25     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:25 identical css/application-ie9.css 
+2013-10-01 22:13:26     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:26 identical css/application.css 
+2013-10-01 22:13:26     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:27 identical css/application-ie7.css 
+2013-10-01 22:13:27     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:27 identical css/application-ie8.css 
+2013-10-01 22:13:28     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:28 identical css/application-ie9.css 
+2013-10-01 22:13:28     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:13:29 identical css/application.css 
+2013-10-01 22:14:13     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:13 identical css/application-ie7.css 
+2013-10-01 22:14:14     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:14 identical css/application-ie8.css 
+2013-10-01 22:14:14     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:14 identical css/application-ie9.css 
+2013-10-01 22:14:15     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:15 identical css/application.css 
+2013-10-01 22:14:16     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:16 identical css/application-ie7.css 
+2013-10-01 22:14:16     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:16 identical css/application-ie8.css 
+2013-10-01 22:14:17     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:17 identical css/application-ie9.css 
+2013-10-01 22:14:18     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:18 identical css/application.css 
+2013-10-01 22:14:45     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:45 identical css/application-ie7.css 
+2013-10-01 22:14:45     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:45 identical css/application-ie8.css 
+2013-10-01 22:14:46     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:46 identical css/application-ie9.css 
+2013-10-01 22:14:47     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:47 identical css/application.css 
+2013-10-01 22:14:47     error sass/application-ie7.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:47 identical css/application-ie7.css 
+2013-10-01 22:14:48     error sass/application-ie8.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:48 identical css/application-ie8.css 
+2013-10-01 22:14:48     error sass/application-ie9.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:49 identical css/application-ie9.css 
+2013-10-01 22:14:49     error sass/application.scss (Line 32 of sass/helpers/_button.scss: Invalid CSS after "...kground-color: ": expected expression (e.g. 1px, bold), was ";")
+2013-10-01 22:14:49 identical css/application.css 
+2013-10-01 22:14:55 overwrite css/application-ie7.css 
+2013-10-01 22:14:56 overwrite css/application-ie8.css 
+2013-10-01 22:14:56 overwrite css/application-ie9.css 
+2013-10-01 22:14:57 overwrite css/application.css 
+2013-10-01 22:15:37 overwrite css/application-ie7.css 
+2013-10-01 22:15:38 overwrite css/application-ie8.css 
+2013-10-01 22:15:38 overwrite css/application-ie9.css 
+2013-10-01 22:15:39 overwrite css/application.css 
+2013-10-01 22:16:17 overwrite css/application-ie7.css 
+2013-10-01 22:16:17 overwrite css/application-ie8.css 
+2013-10-01 22:16:18 overwrite css/application-ie9.css 
+2013-10-01 22:16:18 overwrite css/application.css 
+2013-10-01 22:16:29 identical css/application-ie7.css 
+2013-10-01 22:16:29 identical css/application-ie8.css 
+2013-10-01 22:16:30 identical css/application-ie9.css 
+2013-10-01 22:16:31 identical css/application.css 
+2013-10-01 22:16:34 identical css/application-ie7.css 
+2013-10-01 22:16:34 identical css/application-ie8.css 
+2013-10-01 22:16:35 identical css/application-ie9.css 
+2013-10-01 22:16:36 identical css/application.css 
+2013-10-01 22:16:47 identical css/application-ie7.css 
+2013-10-01 22:16:47 identical css/application-ie8.css 
+2013-10-01 22:16:48 identical css/application-ie9.css 
+2013-10-01 22:16:49 identical css/application.css 
+2013-10-01 22:16:51 identical css/application-ie7.css 
+2013-10-01 22:16:51 identical css/application-ie8.css 
+2013-10-01 22:16:52 identical css/application-ie9.css 
+2013-10-01 22:17:10 overwrite css/application-ie7.css 
+2013-10-01 22:17:10 overwrite css/application-ie8.css 
+2013-10-01 22:17:11 overwrite css/application-ie9.css 
+2013-10-01 22:17:12 overwrite css/application.css 
+2013-10-01 22:22:38 overwrite css/application-ie7.css 
+2013-10-01 22:22:38 overwrite css/application-ie8.css 
+2013-10-01 22:22:39 overwrite css/application-ie9.css 
+2013-10-01 22:22:40 overwrite css/application.css 
+2013-10-01 22:22:58 overwrite css/application-ie7.css 
+2013-10-01 22:22:58 overwrite css/application-ie8.css 
+2013-10-01 22:22:59 overwrite css/application-ie9.css 
+2013-10-01 22:23:00 overwrite css/application.css 
+2013-10-01 22:23:06 overwrite css/application-ie7.css 
+2013-10-01 22:23:07 overwrite css/application-ie8.css 
+2013-10-01 22:23:07 overwrite css/application-ie9.css 
+2013-10-01 22:23:08 overwrite css/application.css 
+2013-10-01 22:23:09 identical css/application-ie7.css 
+2013-10-01 22:23:10 identical css/application-ie8.css 
+2013-10-01 22:23:10 identical css/application-ie9.css 
+2013-10-01 22:25:14 overwrite css/application-ie7.css 
+2013-10-01 22:25:15 overwrite css/application-ie8.css 
+2013-10-01 22:25:15 overwrite css/application-ie9.css 
+2013-10-01 22:25:16 overwrite css/application.css 
+2013-10-01 22:26:05 overwrite css/application-ie7.css 
+2013-10-01 22:26:06 overwrite css/application-ie8.css 
+2013-10-01 22:26:07 overwrite css/application-ie9.css 
+2013-10-01 22:26:08 overwrite css/application.css 
+2013-10-01 22:26:15 overwrite css/application-ie7.css 
+2013-10-01 22:26:16 overwrite css/application-ie8.css 
+2013-10-01 22:26:17 overwrite css/application-ie9.css 
+2013-10-01 22:26:17 overwrite css/application.css 
+2013-10-01 22:26:19 identical css/application-ie7.css 
+2013-10-01 22:26:19 identical css/application-ie8.css 
+2013-10-01 22:26:20 identical css/application-ie9.css 
+2013-10-01 22:26:21 identical css/application.css 
+2013-10-01 22:26:47 overwrite css/application-ie7.css 
+2013-10-01 22:26:48 overwrite css/application-ie8.css 
+2013-10-01 22:26:49 overwrite css/application-ie9.css 
+2013-10-01 22:26:50 overwrite css/application.css 
+2013-10-01 22:26:59 overwrite css/application-ie7.css 
+2013-10-01 22:27:00 overwrite css/application-ie8.css 
+2013-10-01 22:27:01 overwrite css/application-ie9.css 
+2013-10-01 22:27:02 overwrite css/application.css 
+2013-10-01 22:31:28 overwrite css/application-ie7.css 
+2013-10-01 22:31:29 overwrite css/application-ie8.css 
+2013-10-01 22:31:30 overwrite css/application-ie9.css 
+2013-10-01 22:31:31 overwrite css/application.css 
+2013-10-01 22:31:43 overwrite css/application-ie7.css 
+2013-10-01 22:31:43 overwrite css/application-ie8.css 
+2013-10-01 22:31:44 overwrite css/application-ie9.css 
+2013-10-01 22:31:45 overwrite css/application.css 
+2013-10-01 22:33:21     error sass/application-ie7.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:21 overwrite css/application-ie7.css 
+2013-10-01 22:33:22     error sass/application-ie8.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:22 overwrite css/application-ie8.css 
+2013-10-01 22:33:22     error sass/application-ie9.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:22 overwrite css/application-ie9.css 
+2013-10-01 22:33:23     error sass/application.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:23 overwrite css/application.css 
+2013-10-01 22:33:23     error sass/application-ie7.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:23 identical css/application-ie7.css 
+2013-10-01 22:33:23     error sass/application-ie8.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:24 identical css/application-ie8.css 
+2013-10-01 22:33:24     error sass/application-ie9.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:24 identical css/application-ie9.css 
+2013-10-01 22:33:24     error sass/application.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:25 identical css/application.css 
+2013-10-01 22:33:25     error sass/application-ie7.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:25 identical css/application-ie7.css 
+2013-10-01 22:33:25     error sass/application-ie8.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-header.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-01 22:33:25 identical css/application-ie8.css 
+2013-10-01 22:33:26 overwrite css/application-ie9.css 
+2013-10-01 22:33:27 overwrite css/application.css 
+2013-10-02 12:42:01    Create article.html
+2013-10-02 12:42:01    Create cards.html
+2013-10-02 12:42:01    Create display.html
+2013-10-02 12:42:01    Create forms.html
+2013-10-02 12:42:01    Create grids.html
+2013-10-02 12:42:01    Create index.html
+2013-10-02 12:42:01    Create push.html
+2013-10-02 12:42:01      Copy /css/application-ie7.css
+2013-10-02 12:42:01      Copy /css/application-ie8.css
+2013-10-02 12:42:01      Copy /css/application-ie9.css
+2013-10-02 12:42:01      Copy /css/application.css
+2013-10-02 12:44:40 overwrite css/application-ie7.css 
+2013-10-02 12:44:40 overwrite css/application-ie8.css 
+2013-10-02 12:44:41 identical css/application-ie9.css 
+2013-10-02 12:44:42 identical css/application.css 
+2013-10-02 12:45:03 overwrite css/application-ie7.css 
+2013-10-02 12:45:04 overwrite css/application-ie8.css 
+2013-10-02 12:45:04 overwrite css/application-ie9.css 
+2013-10-02 12:45:05 overwrite css/application.css 
+2013-10-02 12:45:09 identical css/application-ie7.css 
+2013-10-02 12:45:10 identical css/application-ie8.css 
+2013-10-02 12:45:11 identical css/application-ie9.css 
+2013-10-02 12:45:12 identical css/application.css 
+2013-10-02 12:47:23 overwrite css/application-ie7.css 
+2013-10-02 12:47:24 overwrite css/application-ie8.css 
+2013-10-02 12:47:25 overwrite css/application-ie9.css 
+2013-10-02 12:47:26 overwrite css/application.css 
+2013-10-02 12:48:02 overwrite css/application-ie7.css 
+2013-10-02 12:48:02 overwrite css/application-ie8.css 
+2013-10-02 12:48:03 overwrite css/application-ie9.css 
+2013-10-02 12:48:04 overwrite css/application.css 
+2013-10-02 12:48:08 overwrite css/application-ie7.css 
+2013-10-02 12:48:09 overwrite css/application-ie8.css 
+2013-10-02 12:48:09 overwrite css/application-ie9.css 
+2013-10-02 12:48:10 overwrite css/application.css 
+2013-10-02 12:48:14 overwrite css/application-ie7.css 
+2013-10-02 12:48:14 overwrite css/application-ie8.css 
+2013-10-02 12:48:15 overwrite css/application-ie9.css 
+2013-10-02 12:48:16 overwrite css/application.css 
+2013-10-02 12:48:17 overwrite css/application-ie7.css 
+2013-10-02 12:48:18 overwrite css/application-ie8.css 
+2013-10-02 12:48:19 overwrite css/application-ie9.css 
+2013-10-02 12:48:19 overwrite css/application-ie7.css 
+2013-10-02 12:48:20 overwrite css/application.css 
+2013-10-02 12:48:22 identical css/application-ie7.css 
+2013-10-02 12:48:23 overwrite css/application-ie8.css 
+2013-10-02 12:48:23 identical css/application-ie9.css 
+2013-10-02 12:50:20 overwrite css/application-ie7.css 
+2013-10-02 12:50:21 overwrite css/application-ie8.css 
+2013-10-02 12:50:22 overwrite css/application-ie9.css 
+2013-10-02 12:50:23 overwrite css/application.css 
+2013-10-02 12:50:42 identical css/application-ie7.css 
+2013-10-02 12:50:43 identical css/application-ie8.css 
+2013-10-02 12:50:43 identical css/application-ie9.css 
+2013-10-02 12:50:44 identical css/application.css 
+2013-10-02 12:51:56 overwrite css/application-ie7.css 
+2013-10-02 12:51:57 overwrite css/application-ie8.css 
+2013-10-02 12:51:57 overwrite css/application-ie9.css 
+2013-10-02 12:51:58 overwrite css/application.css 
+2013-10-02 12:51:59 overwrite css/application-ie7.css 
+2013-10-02 12:52:00 overwrite css/application-ie8.css 
+2013-10-02 12:52:01 overwrite css/application-ie9.css 
+2013-10-02 12:52:02 overwrite css/application.css 
+2013-10-03 06:03:40 overwrite css/application-ie7.css 
+2013-10-03 06:03:41 overwrite css/application-ie8.css 
+2013-10-03 06:03:43 overwrite css/application-ie9.css 
+2013-10-03 06:03:44 overwrite css/application.css 
+2013-10-03 06:03:45 overwrite css/application-ie7.css 
+2013-10-03 06:03:47 overwrite css/application-ie7.css 
+2013-10-03 06:03:48 overwrite css/application-ie8.css 
+2013-10-03 06:03:49 overwrite css/application-ie9.css 
+2013-10-03 06:03:50 overwrite css/application.css 
+2013-10-03 06:03:54 overwrite css/application-ie7.css 
+2013-10-03 06:03:55 overwrite css/application-ie8.css 
+2013-10-03 06:03:56 overwrite css/application-ie9.css 
+2013-10-03 06:03:57 overwrite css/application.css 
+2013-10-03 06:03:58 overwrite css/application-ie7.css 
+2013-10-03 06:03:59 overwrite css/application-ie8.css 
+2013-10-03 06:04:00 overwrite css/application-ie9.css 
+2013-10-03 06:04:56 identical css/application-ie7.css 
+2013-10-03 06:04:56 identical css/application-ie8.css 
+2013-10-03 06:04:57 identical css/application-ie9.css 
+2013-10-03 06:04:58 overwrite css/application.css 
+2013-10-03 06:08:54     error sass/application-ie7.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-heading.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-03 06:08:55 overwrite css/application-ie7.css 
+2013-10-03 06:08:55     error sass/application-ie8.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-heading.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-03 06:08:55 overwrite css/application-ie8.css 
+2013-10-03 06:08:55     error sass/application-ie9.scss (Line 2 of sass/components/_all.scss: File to import not found or unreadable: page-heading.
+Load paths:
+  /private/var/application/7211/static_site/src/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets
+  /vendor/assets/stylesheets)
+2013-10-03 06:08:55 overwrite css/application-ie9.css 
+2013-10-03 06:08:56 identical css/application.css 
+2013-10-03 06:08:57 overwrite css/application-ie7.css 
+2013-10-03 06:08:58 overwrite css/application-ie8.css 
+2013-10-03 06:08:59 overwrite css/application-ie9.css 
+2013-10-03 06:09:19 overwrite css/application-ie7.css 
+2013-10-03 06:09:20 overwrite css/application-ie8.css 
+2013-10-03 06:09:21 overwrite css/application-ie9.css 
+2013-10-03 06:09:22 overwrite css/application.css 
+2013-10-03 06:11:07 identical css/application-ie7.css 
+2013-10-03 06:11:08 identical css/application-ie8.css 
+2013-10-03 06:11:09 identical css/application-ie9.css 
+2013-10-03 06:11:09 identical css/application.css 
+2013-10-03 06:11:44     error sass/application-ie7.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:45 overwrite css/application-ie7.css 
+2013-10-03 06:11:45     error sass/application-ie8.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:45 overwrite css/application-ie8.css 
+2013-10-03 06:11:45     error sass/application-ie9.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:45 overwrite css/application-ie9.css 
+2013-10-03 06:11:46     error sass/application.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:46 overwrite css/application.css 
+2013-10-03 06:11:46     error sass/application-ie7.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:46 identical css/application-ie7.css 
+2013-10-03 06:11:47     error sass/application-ie8.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:47 identical css/application-ie8.css 
+2013-10-03 06:11:47     error sass/application-ie9.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:47 identical css/application-ie9.css 
+2013-10-03 06:11:48     error sass/application.scss (Line 11 of sass/components/_nav.scss: Invalid CSS after "  }": expected selector or at-rule, was "}")
+2013-10-03 06:11:48 identical css/application.css 
+2013-10-03 06:11:53 overwrite css/application-ie7.css 
+2013-10-03 06:11:54 overwrite css/application-ie8.css 
+2013-10-03 06:11:54 overwrite css/application-ie9.css 
+2013-10-03 06:11:55 overwrite css/application.css 
+2013-10-03 06:11:56 identical css/application-ie7.css 
+2013-10-03 06:11:58 identical css/application-ie7.css 
+2013-10-03 06:11:59 identical css/application-ie8.css 
+2013-10-03 06:12:00 identical css/application-ie9.css 
+2013-10-03 06:12:01 identical css/application.css 
+2013-10-03 06:12:09 identical css/application-ie7.css 
+2013-10-03 06:12:10 identical css/application-ie8.css 
+2013-10-03 06:12:11 identical css/application-ie9.css 
+2013-10-03 06:12:12 identical css/application.css 
+2013-10-03 06:14:00 overwrite css/application-ie7.css 
+2013-10-03 06:14:01 overwrite css/application-ie8.css 
+2013-10-03 06:14:02 overwrite css/application-ie9.css 
+2013-10-03 06:14:02 identical css/application.css 
+2013-10-03 06:14:19 identical css/application-ie7.css 
+2013-10-03 06:14:19 identical css/application-ie8.css 
+2013-10-03 06:14:20 identical css/application-ie9.css 
+2013-10-03 06:14:21 identical css/application.css 
+2013-10-03 06:14:39 identical css/application-ie7.css 
+2013-10-03 06:14:40 identical css/application-ie8.css 
+2013-10-03 06:14:41 overwrite css/application-ie9.css 
+2013-10-03 06:14:42 identical css/application.css 
+2013-10-03 06:14:50 overwrite css/application-ie7.css 
+2013-10-03 06:14:51 overwrite css/application-ie8.css 
+2013-10-03 06:14:51 overwrite css/application-ie9.css 
+2013-10-03 06:14:52 identical css/application.css 
+2013-10-03 06:14:53 identical css/application-ie7.css 
+2013-10-03 06:14:53 identical css/application-ie8.css 
+2013-10-03 06:14:54 identical css/application-ie9.css 
+2013-10-03 06:14:55 identical css/application-ie7.css 
+2013-10-03 06:14:56 identical css/application-ie8.css 
+2013-10-03 06:14:57 identical css/application.css 
+2013-10-03 06:15:31 identical css/application-ie7.css 
+2013-10-03 06:15:31 identical css/application-ie8.css 
+2013-10-03 06:15:32 overwrite css/application-ie9.css 
+2013-10-03 06:15:33 identical css/application.css 
+2013-10-03 06:15:44 identical css/application-ie7.css 
+2013-10-03 06:15:45 identical css/application-ie8.css 
+2013-10-03 06:15:45 overwrite css/application-ie9.css 
+2013-10-03 06:15:46 overwrite css/application.css 
+2013-10-03 06:17:38 overwrite css/application-ie7.css 
+2013-10-03 06:17:38 overwrite css/application-ie8.css 
+2013-10-03 06:17:39 overwrite css/application-ie9.css 
+2013-10-03 06:17:40 overwrite css/application.css 
+2013-10-03 06:17:54 identical css/application-ie7.css 
+2013-10-03 06:17:55 identical css/application-ie8.css 
+2013-10-03 06:17:56 identical css/application-ie9.css 
+2013-10-03 06:17:56 identical css/application.css 
+2013-10-03 06:18:10 overwrite css/application-ie7.css 
+2013-10-03 06:18:11 overwrite css/application-ie8.css 
+2013-10-03 06:18:11 overwrite css/application-ie9.css 
+2013-10-03 06:18:12 overwrite css/application.css 

@@ -1,5 +1,9 @@
-.nav {
+.nav,
+.nav--full {
   @include remove_default_list_styling();
+}
+
+.nav {
   @include clearfix();
 
   li {
@@ -8,8 +12,6 @@
 }
 
 .nav--full {
-  @include remove_default_list_styling();
-
   li {
     a {
       @include display(block);

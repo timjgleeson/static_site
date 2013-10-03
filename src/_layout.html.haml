@@ -4,7 +4,7 @@
   %head
     %meta{ :charset => "utf-8" }/
 
-    %title Radiology
+    %title Static Site
 
     %meta{ :name => "description", :content => "" }/
     %meta{ :name => "author", :content => "" }/
@@ -29,32 +29,35 @@
 
   %body
     .page
-      .grid
-        .grid__item
-          = render :partial => "templates/components/nav/basic"
-      .grid
-        .grid__item
-          = render :partial => "templates/components/page-title/basic"
-      .grid
-        .grid__item
-          = render :partial => "templates/components/breadcrumbs/basic"
-      .grid
-        .grid__item.lapdesk-one-fifth.palm-hidden
-          = render :partial => "templates/components/nav/full"
-        .grid__item.lapdesk-four-fifths
-          = yield
+      .page__header
+        .grid
+          .grid__item
+            = render :partial => "templates/components/nav/basic"
+        .grid
+          .grid__item
+            = render :partial => "templates/components/heading/basic"
+        .grid
+          .grid__item
+            = render :partial => "templates/components/breadcrumbs/basic"
+
+      .page__content
+        .grid
+          .grid__item.lapdesk-one-fifth.palm-hidden
+            = render :partial => "templates/components/nav/full"
+          .grid__item.lapdesk-four-fifths
+            = yield
 
       .page__footer
         .grid
           .grid__item.lap-one-half.desk-one-quarter
-            = render :partial => "templates/components/page-title/basic"
+            = render :partial => "templates/components/heading/basic"
             %p Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
           .grid__item.lap-one-half.desk-one-quarter
-            = render :partial => "templates/components/page-title/basic"
+            = render :partial => "templates/components/heading/basic"
             %p Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
           .grid__item.lap-one-half.desk-one-quarter
-            = render :partial => "templates/components/page-title/basic"
+            = render :partial => "templates/components/heading/basic"
             %p Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
           .grid__item.lap-one-half.desk-one-quarter
-            = render :partial => "templates/components/page-title/basic"
+            = render :partial => "templates/components/heading/basic"
             %p Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.

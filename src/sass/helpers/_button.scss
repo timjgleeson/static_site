@@ -1,16 +1,95 @@
+@mixin button($backgroundColor: $baseColor,
+              $backgroundHoverColor: lighten($baseColor, 10%),
+              $textColor: white,
+              $textHoverColor: white) {
+
+  @extend .button;
+
+  background-color: $backgroundColor;
+  color: $textColor;
+
+  &:hover {
+    background-color: $backgroundHoverColor;
+    color: $textHoverColor;
+  }
+
+  &.is-disabled {
+    cursor: not-allowed;
+    background-color: desaturate($backgroundColor, 40%);
+    color: desaturate($textColor, 40%);
+
+    &:hover {
+      background-color: desaturate($backgroundColor, 40%);
+      color: desaturate($textColor, 40%);
+    }
+  }
+}
+
 .button {
   @include display(inline-block);
   padding: $gutter / 4;
   cursor: pointer;
   -webkit-appearance: none;
-  background-color: #7f7f7f;
   border: 0;
   border-radius: 0;
   font-family: $baseFontFamily;
   font-size: $baseFontSize;
   font-weight: normal;
   line-height: 1;
-  color: white;
   text-decoration: none;
   text-align: center;
+  @include button();
+}
+
+.button--primary {
+  @include button($primaryColor, lighten($primaryColor, 10%));
+}
+
+.button--secondary {
+  @include button($secondaryColor, lighten($secondaryColor, 10%));
+}
+
+.button--success {
+  @include button($successColor, lighten($successColor, 10%));
+}
+
+.button--info {
+  @include button($infoColor, lighten($infoColor, 10%));
+}
+
+.button--warning {
+  @include button($warningColor, lighten($warningColor, 10%));
+}
+
+.button--danger {
+  @include button($dangerColor, lighten($dangerColor, 10%));
+}
+
+.button--inverse {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $baseColor, $baseColor);
+}
+
+.button--inverse-primary {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $primaryColor, $primaryColor);
+}
+
+.button--inverse-secondary {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $secondaryColor, $secondaryColor);
+}
+
+.button--inverse-success {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $successColor, $successColor);
+}
+
+.button--inverse-info {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $infoColor, $infoColor);
+}
+
+.button--inverse-warning {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $warningColor, $warningColor);
+  color: $warningColor;
+}
+
+.button--inverse-danger {
+  @include button(#e5e3e9, darken(#e5e3e9, 10%), $dangerColor, $dangerColor);
 }

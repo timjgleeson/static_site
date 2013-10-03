@@ -32,25 +32,15 @@
     @include not-hidden('lap-');
     @include not-hidden('lap-', inline-block);
   }
-
-  @media #{$lapdeskMq} {
-    @include hidden('lapdesk-');
-    @include not-hidden('lapdesk-');
-    @include not-hidden('lapdesk-', inline-block);
-  }
-
-  @media #{$deskMq} {
-    @include hidden('desk-');
-    @include not-hidden('desk-');
-    @include not-hidden('desk-', inline-block);
-  }
 }
 
-@include is_ie() {
+@include respond-to($lapdeskMq) {
   @include hidden('lapdesk-');
   @include not-hidden('lapdesk-');
   @include not-hidden('lapdesk-', inline-block);
+}
 
+@include respond-to($deskMq) {
   @include hidden('desk-');
   @include not-hidden('desk-');
   @include not-hidden('desk-', inline-block);

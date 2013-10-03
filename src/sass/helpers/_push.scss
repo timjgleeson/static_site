@@ -3,28 +3,28 @@
 }
 
 @mixin push_up($namespace:""){
-  .#{$namespace}push--up {
+  .#{$namespace}push-up {
     @include push;
     bottom: $gutter;
   }
 }
 
 @mixin push_right($namespace:""){
-  .#{$namespace}push--right {
+  .#{$namespace}push-right {
     @include push;
     left: $gutter;
   }
 }
 
 @mixin push_down($namespace:""){
-  .#{$namespace}push--down {
+  .#{$namespace}push-down {
     @include push;
     top: $gutter;
   }
 }
 
 @mixin push_left($namespace:""){
-  .#{$namespace}push--left {
+  .#{$namespace}push-left {
     @include push;
     right: $gutter;
   }
@@ -56,28 +56,16 @@
     @include push_down('lap-');
     @include push_left('lap-');
   }
-
-  @media #{$lapdeskMq} {
-    @include push_up('lapdesk-');
-    @include push_right('lapdesk-');
-    @include push_down('lapdesk-');
-    @include push_left('lapdesk-');
-  }
-
-  @media #{$deskMq} {
-    @include push_up('desk-');
-    @include push_right('desk-');
-    @include push_down('desk-');
-    @include push_left('desk-');
-  }
 }
 
-@include is_ie() {
+@include respond-to($lapdeskMq) {
   @include push_up('lapdesk-');
   @include push_right('lapdesk-');
   @include push_down('lapdesk-');
   @include push_left('lapdesk-');
+}
 
+@include respond-to($lapdeskMq) {
   @include push_up('desk-');
   @include push_right('desk-');
   @include push_down('desk-');

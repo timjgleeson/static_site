@@ -1,10 +1,2 @@
-.page {
-  @extend .padded;
-}
 
-@include respond_to($deskMq) {
-  .page {
-    margin: 0 auto;
-    width: $deskStart;
-  }
-}
+

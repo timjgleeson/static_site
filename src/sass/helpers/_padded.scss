@@ -41,25 +41,15 @@
     @include padded_narrow('lap-');
     @include padded_wide('lap-');
   }
-
-  @media #{$lapdeskMq} {
-    @include padded('lapdesk-');
-    @include padded_narrow('lapdesk-');
-    @include padded_wide('lapdesk-');
-  }
-
-  @media #{$deskMq} {
-    @include padded('desk-');
-    @include padded_narrow('desk-');
-    @include padded_wide('desk-');
-  }
 }
 
-@include is_ie() {
+@include respond-to($lapdeskMq) {
   @include padded('lapdesk-');
   @include padded_narrow('lapdesk-');
   @include padded_wide('lapdesk-');
+}
 
+@include respond-to($deskMq) {
   @include padded('desk-');
   @include padded_narrow('desk-');
   @include padded_wide('desk-');
