@@ -37,7 +37,7 @@
       direction: ltr;
       text-align: left;
 
-      @include ie(7) {
+      @include is_ie(7) {
         @include pull-right(0);
       }
     }
@@ -123,24 +123,20 @@
 }
 
 .grid{
-  @include remove_default_list_styling();
-  @include ie(7) {
+  @include is_ie(7) {
     @include clearfix();
   }
   margin-left: -$gutter;
-  font-size: 0;
 }
 
 .grid__item{
   @include display('inline-block');
-  @include remove_default_list_styling();
-  @include ie(7) {
+  @include is_ie(7) {
     @include pull-left(0);
   }
   width: 100%;
   padding-left: $gutter;
   vertical-align: top;
-  font-size: 16px;
 }
 
 @include grid_full();
@@ -150,7 +146,7 @@
 
 @include grid_item_width();
 
-@include is_not_ie() {
+@include not_ie() {
   @media #{$palmMq} {
     @include grid_full('palm-');
     @include grid_narrow('palm-');

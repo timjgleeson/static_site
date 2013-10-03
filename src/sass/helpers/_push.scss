@@ -35,7 +35,7 @@
 @include push_down();
 @include push_left();
 
-@include is_not_ie() {
+@include not_ie() {
   @media #{$palmMq} {
     @include push_up('palm-');
     @include push_right('palm-');

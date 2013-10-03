@@ -1,62 +1,41 @@
 form {
 
+  & .form__heading:first-child,
+  & .form__description:first-child :first-child,
+  & .form__description--error:first-child,
+  & .form-row:first-child {
+    margin-top: 0;
+  }
+}
+
+fieldset {
+  border: 1px solid lighten($baseColor, 20%);
+  margin-top: $baseMargin;
+  padding: $gutter / 2;
+
+  & .form__heading:first-child,
+  & .form__description:first-child :first-child,
+  & .form__description--error:first-child,
+  & .form-row:first-child {
+    margin-top: 0;
+  }
+}
+
+legend {
+  @include display(none);
+
+  + .form__heading,
+  + .form__description :first-child,
+  + .form__description--error,
+  + .form-row {
+    margin-top: 0;
+  }
 }
 
 input, select, textarea {
   font-size: $baseFontSize;
   line-height: 1.5;
-}
-
-.form-row {
-  @include clearfix();
-  margin-top: $baseMargin;
-}
-
-.form-row__text {
-  float: left;
-  width: 100%;
-  margin-bottom: $gutter / 4;
-  padding-top: $gutter / 4;
-  padding-right: $gutter;
-  font-weight: bold;
-
-  @include respond_to($lapdeskMq) {
-    width: 30%;
-    margin-bottom: 0;
-
-    .form-row--full & {
-      width: 100%;
-      margin-bottom: $gutter / 4;
-    }
-  }
-}
-
-.form-row__value {
-  width: 100%;
-
-  @include respond_to($lapdeskMq) {
-    float: left;
-    width: 70%;
-
-    .form-row--full & {
-      float: none;
-      width: 100%;
-    }
-  }
-}
-
-.text-input {
-  -webkit-appearance: none;
-  border-radius: 0;
-  padding: $gutter / 4;
-  width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  border: 1px solid lighten($baseColor, 20%);
-
-  &.is-disabled {
-    cursor: not-allowed;
-  }
+  vertical-align: bottom;
 }
 
 input[type="text"],
@@ -76,12 +55,95 @@ textarea {
 select {
   padding: $gutter / 4;
   width: 100%;
+  height: 42px;
   font-family: inherit;
   font-size: inherit;
   border: 1px solid lighten($baseColor, 20%);
 
   &.is-disabled {
     cursor: not-allowed;
+  }
+}
+
+.text-input {
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: $gutter / 4;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid lighten($baseColor, 20%);
+
+  &.is-disabled {
+    cursor: not-allowed;
+  }
+}
+
+.form__heading {
+  @extend .heading;
+}
+
+.form__title {
+  @extend .heading__title;
+}
+
+.form__subtitle {
+  @extend .heading__subtitle;
+}
+
+.form__description {
+  & p, ul, ol, dl {
+    margin-top: $baseMargin;
+  }
+}
+
+.form__description--error {
+  @include notification($dangerColor, lighten($dangerColor, 10%));
+}
+
+.form-row,
+.form-row--custom {
+  @include clearfix();
+  @include remove_default_list_styling();
+  margin-top: $baseMargin;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.form-row__text {
+  float: left;
+  width: 100%;
+  margin-bottom: $gutter / 4;
+  padding-top: $gutter / 4;
+  padding-right: $gutter;
+  font-weight: bold;
+
+  @include respond_to($lapdeskMq) {
+    width: 30%;
+    margin-bottom: 0;
+
+    .form-row--full &,
+    .form-row--custom & {
+      width: 100%;
+      margin-bottom: $gutter / 4;
+    }
+  }
+}
+
+.form-row__value {
+  width: 100%;
+
+  @include respond_to($lapdeskMq) {
+    float: left;
+    width: 70%;
+
+    .form-row--full &,
+    .form-row--custom & {
+      float: none;
+      width: 100%;
+    }
   }
 }
 
@@ -102,6 +164,7 @@ select {
     margin-left: 30%;
 
     .form-row--full &,
+    .form-row--custom &,
     &.form-row__description--error {
       width: 100%;
       margin-left: 0;
@@ -127,18 +190,4 @@ select {
   padding: $gutter / 4;
   background-color: $dangerColor;
   color: white;
-}
-
-.form-actions {
-  font-size: 0;
-
-  > .button,
-  > .link {
-    margin-top: $baseMargin;
-    margin-left: $gutter / 2;
-
-    &:first-child {
-      margin-left: 0;
-    }
-  }
 }

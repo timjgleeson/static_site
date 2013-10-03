@@ -1,0 +1,10 @@
+@mixin notification($backgroundColor: $baseColor,
+                    $borderColor: lighten($baseColor, 10%),
+                    $textColor: white) {
+
+  @extend .notification;
+
+  border-left-color: $borderColor;
+  background-color: $backgroundColor;
+  color: $textColor;
+}

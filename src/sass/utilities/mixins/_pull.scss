@@ -1,15 +1,17 @@
-@mixin pull-right($margin-left: $gutter / 2) {
+@mixin pull_right($margin-left: $gutter / 2) {
   float: right;
   @if $margin-left != 0 {
-    margin-right: $margin-left;
+    margin-left: $margin-left;
   }
+  margin-right: 0;
 }
 
-@mixin pull-left($margin-right: $gutter / 2) {
+@mixin pull_left($margin-right: $gutter / 2) {
   float: left;
   @if $margin-right != 0 {
     margin-right: $margin-right;
   }
+  margin-left: 0;
 }
 
 @mixin clearfix() {

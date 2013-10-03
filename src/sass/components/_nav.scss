@@ -1,14 +1,5 @@
-.nav,
-.nav--full {
-  @include remove_default_list_styling();
-}
-
 .nav {
   @include clearfix();
-
-  li {
-    @include pull-left();
-  }
 }
 
 .nav--full {
@@ -16,5 +7,13 @@
     a {
       @include display(block);
     }
+  }
+}
+
+.nav__item {
+  @include remove_default_list_styling();
+
+  .nav & {
+    @include pull-left();
   }
 }

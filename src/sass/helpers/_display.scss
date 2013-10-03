@@ -14,7 +14,7 @@
 @include not-hidden();
 @include not-hidden('', inline-block);
 
-@include is_not_ie() {
+@include not_ie() {
   @media #{$palmMq} {
     @include hidden('palm-');
     @include not-hidden('palm-');

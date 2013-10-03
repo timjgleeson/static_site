@@ -1,12 +1,13 @@
 .heading {
   border-bottom: 1px solid lighten(black, 20%);
+  margin-top: $baseMargin;
   padding-bottom: $gutter / 4;
 }
 
 .heading__title,
 .heading__subtitle {
   @include display(inline);
-  margin: 0;
+  margin: 0 ($baseMargin / 2) 0 0;
   padding: 0;
 }
 

@@ -1,4 +1,10 @@
-@mixin ie($version) {
+@mixin is_ie {
+  @if $is_ie == true {
+    @content;
+  }
+}
+
+@mixin is_ie($version) {
   @if $is_ie == true {
     @if $ie_version == $version {
       @content;
@@ -6,7 +12,7 @@
   }
 }
 
-@mixin ie_lte($version) {
+@mixin is_ie_lte($version) {
   @if $is_ie == true {
     @if $ie_version <= $version {
       @content;
@@ -14,26 +20,20 @@
   }
 }
 
-@mixin is_not_ie {
+@mixin not_ie {
   @if $is_ie != true {
     @content;
   }
 }
 
-@mixin is_ie {
-  @if $is_ie == true {
-    @content;
-  }
-}
-
 @mixin ie_width($factor) {
-  @include ie_lte(7) {
+  @include is_ie_lte(7) {
     width: unquote('expression((this.parentNode.clientWidth * '+($factor / 100)+' - parseInt(this.currentStyle["paddingLeft"]) - parseInt(this.currentStyle["paddingRight"]) - (parseInt(this.currentStyle["borderLeftWidth"]) || 0) - (parseInt(this.currentStyle["borderRightWidth"]) || 0) ) + "px")');
   }
 }
 
 @mixin ie_height($factor) {
-  @include ie_lte(7) {
+  @include is_ie_lte(7) {
     height: unquote('expression((this.parentNode.clientHeight * '+($factor / 100)+' - parseInt(this.currentStyle["paddingTop"]) - parseInt(this.currentStyle["paddingBottom"]) - (parseInt(this.currentStyle["borderTopWidth"]) || 0) - (parseInt(this.currentStyle["borderBottomWidth"]) || 0) ) + "px")');
   }
 }

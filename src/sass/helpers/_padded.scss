@@ -23,7 +23,7 @@
 @include padded_narrow();
 @include padded_wide();
 
-@include is_not_ie() {
+@include not_ie() {
   @media #{$palmMq} {
     @include padded('palm-');
     @include padded_narrow('palm-');

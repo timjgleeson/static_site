@@ -1,2 +1,9 @@
 .button-group {
+  @include display(inline-block);
+  margin-right: $baseMargin;
+  font-size: 0;
+
+  .button {
+    margin: 0;
+  }
 }

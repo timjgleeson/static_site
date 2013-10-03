@@ -1,4 +1,7 @@
 # Require any additional compass plugins here.
+require 'haml'
+
+Haml::Options.defaults[:remove_whitespace] = true
 
 http_path = "/"
 css_dir = "css"
@@ -27,4 +30,4 @@ preferred_syntax = :scss
 sass_options = {:debug_info=>false} # by Fire.app
 line_comments = false # by Fire.app
 
-output_style = :expanded # by Fire.app
+output_style = :compressed # by Fire.app

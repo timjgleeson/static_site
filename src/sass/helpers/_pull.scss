@@ -1,9 +1,9 @@
 .pull-right {
-  @include pull-right();
+  @include pull_right();
 }
 
 .pull-left {
-  @include pull-left();
+  @include pull_left();
 }
 
 .clearfix {

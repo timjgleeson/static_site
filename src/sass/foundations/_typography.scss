@@ -98,6 +98,7 @@ ol {
 
 li {
   list-style-position: outside;
+  margin-left: $baseMargin * 2;
 
   ul,
   ol {

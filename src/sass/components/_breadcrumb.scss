@@ -2,6 +2,7 @@
   @extend .nav;
 
   .breadcrumb__item {
+    @extend .nav__item;
     position: relative;
 
     &:after {
