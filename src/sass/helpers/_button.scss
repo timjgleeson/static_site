@@ -11,16 +11,19 @@
 
   &:hover {
     background-color: $backgroundHoverColor;
+    border-color: $backgroundHoverColor;
     color: $textHoverColor;
   }
 
   &.is-disabled {
     cursor: not-allowed;
     background-color: desaturate($backgroundColor, 40%);
+    border-color: desaturate($backgroundColor, 40%);
     color: desaturate($textColor, 40%);
 
     &:hover {
       background-color: desaturate($backgroundColor, 40%);
+      border-color: desaturate($backgroundColor, 40%);
       color: desaturate($textColor, 40%);
     }
   }

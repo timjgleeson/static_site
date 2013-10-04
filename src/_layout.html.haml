@@ -42,9 +42,22 @@
 
       .page__content
         .grid
-          .grid__item.lapdesk-one-fifth.palm-hidden
+          .grid__item.lapdesk-one-quarter.palm-hidden
             = render :partial => "templates/components/nav/full"
-          .grid__item.lapdesk-four-fifths
+            .card
+              .card__heading
+                %h2.card__title Newsletter Subscription
+              .card__content
+                %form
+                  .form__description
+                    %p Subscribe to our newsletters with your email to receive monthly emails!
+                  .form-row--full
+                    %label.form-row__text.hidden Email Address
+                    .form-row__value
+                      %input{:type=>"email", :placeholder=>"Email Address"}
+                  .form-actions
+                    %input.button{:type=>"submit", :value=>"Subscribe"}
+          .grid__item.lapdesk-three-quarters
             = yield
 
       .page__footer

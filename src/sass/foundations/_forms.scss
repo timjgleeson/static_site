@@ -1,9 +1,11 @@
 form {
+  margin-top: $baseMargin;
 
   & .form__heading:first-child,
   & .form__description:first-child :first-child,
   & .form__description--error:first-child,
-  & .form-row:first-child {
+  & .form-row:first-child,
+  & fieldset:first-child {
     margin-top: 0;
   }
 }
@@ -102,7 +104,9 @@ select {
 }
 
 .form-row,
-.form-row--custom {
+.form-row--full,
+.form-row--custom,
+.form-actions {
   @include clearfix();
   @include remove_default_list_styling();
   margin-top: $baseMargin;
@@ -171,7 +175,6 @@ select {
     }
   }
 }
-
 
 .form-row--error {
   .form-row__text {

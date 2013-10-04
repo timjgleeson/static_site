@@ -18,6 +18,7 @@
 }
 
 .card__title {
+  @extend .h4;
   margin: 0;
 }
 
@@ -26,10 +27,6 @@
     padding-left: $gutter / 2;
     width: 65%;
     float: right;
-  }
-
-  :first-child {
-    margin-top: 0;
   }
 }
 
